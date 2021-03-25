@@ -110,26 +110,26 @@ Included in the **footer** is:
 * **Social media links:** Which will take you to the various social media connections: Github, Instagram, LinkedIn. Which will open in a new tab to maintain user retention.
 * **Copyright:** Showing the owner of the site and year.
 
-Included in the **index.html** page is:
+Included in the **Home/landing** section is:
 
 * **Logo and Developers name:** A brief introduction to the owner and slogan. 
 * **Animated Circle Element:** To give a focus point that captures your attention immediately at the site. 
 
-Included in the **about.html** page is:
+Included in the **about me** section is:
 
 * **Introduction to Developer:** A introduction about the owner, with background information and education, as well as interests. An elevator pitch.  
 * **Skills bar:** A bar to illustrate the developers current skills(HTML,CSS, Bootstrap etc.), to what will be learned. 
 
-Included in the **projects.html** page is:
+Included in the **projects** section is:
 
 * **Projects Cartwheel for mobile:** Provides information and image of projects. 
 * **Projects Containers for desktop, xl desktop and tablet:** Provides information and image of projects. 
 
-Included in the **contact.html** page is:
+Included in the **contact** section is:
 
 * **Contact Form:** Can be filled out with email and message query (with validation, “@” and “.”) and submitted to contact the owner. Currently due to no JavaScript the form cannot store or send data.
 
-Included in the **downloadCV.html** page is:
+Included in the **downloadCV** link is:
 
 * **Download CV text and Icon:** A icon for the user to download the CV of the developer on a new page. 
 
