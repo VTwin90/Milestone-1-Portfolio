@@ -5,10 +5,20 @@ footer, header, nav {
     color: #D1CCCC;
 }
 
+.navbar {
+   justify-content: left;
+}
+
 body {
-	background-color: #29084C;
+    background-color: #29084C;
 }
 
 a {
 	color: #D1CCCC;
 }
+
+header {
+    background-color: #0a0c3f;
+}
+
+
