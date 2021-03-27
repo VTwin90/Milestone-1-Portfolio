@@ -9,16 +9,70 @@ footer, header, nav {
    justify-content: left;
 }
 
-body {
-    background-color: #29084C;
+header {
+    background-color: #0a0c3f;
 }
 
 a {
 	color: #D1CCCC;
 }
 
-header {
-    background-color: #0a0c3f;
+h1 {
+	color: #D1CCCC;
+	text-align: center;
 }
+
+body {
+    background-color: #29084C;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ /*  Circle Animation CSS Customised from https://codepen.io/Olwiba/pen/XRVrZQ */
+ .center {
+  margin: 0 auto;
+}
+
+.outer-ring {
+  position: absolute;
+  left: calc(48% - 138px);
+  top: calc(48% - 140px);
+  height: 300px;
+  width: 300px;
+  background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+  border-radius: 50%;
+  
+  /*  Rotate  */
+  animation-duration: 2s;
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+}
+
+.inner-ring {
+    position: absolute;
+    left: calc(50% - 140px);
+    top: calc(50% - 140px);
+    height: 280px;
+    width: 280px;
+    background-image: url(assets/css/images/logoLarge.png);
+    background-size: 280px 280px;
+    border-radius: 50%;
+}
+
+@keyframes rotate {
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+}
+
+/*  Circle Animation CSS Customised Finished*/
+
+
+
+
 
 
