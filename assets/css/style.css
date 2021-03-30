@@ -37,7 +37,7 @@ a {
 	color: #D1CCCC;
 }
 
-h1.slogan{
+h1.slogan {
 	color: #D1CCCC;
 	text-align: center;
     padding: 20rem 0rem 0rem 0rem;
@@ -160,6 +160,14 @@ p {
   margin-bottom: 40px 20px;
 }
 
-
+/* Footer */
+footer {
+   background-color: #0a0c3f;
+    font-family: Roboto;
+    color: #D1CCCC;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
 
 
