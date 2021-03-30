@@ -79,6 +79,27 @@ p {
   margin: 20% 0;
 }
 
+.contact {
+  background-color: #0a0c3f; 
+  opacity: 1;
+  margin: 20% 0;
+}
+
+/* Contact Form */
+.form-group {
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+.btn {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 50%;
+  color: #D1CCCC;
+  background-color: #29084C; 
+}
+
  /*  Circle Animation CSS Customised from https://codepen.io/Olwiba/pen/XRVrZQ */
  .center {
   margin: 0 auto;
