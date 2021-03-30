@@ -1,6 +1,6 @@
 body {
     background-color: #29084C;
-    font-family: 'Roboto';
+    font-family: "Roboto";
 }
 
 header {
@@ -10,7 +10,7 @@ header {
 /* Nav */
 nav {
     background-color: #0a0c3f;
-    font-family: Roboto;
+    font-family: "Roboto";
     color: #D1CCCC;
     margin: 0;
     padding: 0;
@@ -73,6 +73,10 @@ p {
 .aboutme {
   background-color:  #0a0c3f;
   opacity: 1;
+}
+
+.projects {
+  margin: 20% 0;
 }
 
  /*  Circle Animation CSS Customised from https://codepen.io/Olwiba/pen/XRVrZQ */
