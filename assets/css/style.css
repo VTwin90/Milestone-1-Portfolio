@@ -1,12 +1,16 @@
+html {
+    scroll-behavior: smooth;
+   }
+
 body {
     background-color: #29084C;
-    font-family: 'Roboto';
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 header {
 background-color: #0a0c3f;
 }
-
 
 /* Nav */
 nav {
@@ -40,10 +44,10 @@ a {
 }
 
 h1.slogan {
-	color: #D1CCCC;
-	text-align: center;
-  padding: 26rem 0rem 0rem 0rem;
-  font-size: 45px;
+ color: #D1CCCC;
+ text-align: center;
+ padding: 26rem 0rem 0rem 0rem;
+ font-size: 45px;
 }
 
 h1 {
@@ -60,7 +64,6 @@ h2, h3 {
 
 p {
   color: #D1CCCC;
-  text-align: ;
   font-size: 23px;
   text-align: justify;
 }
@@ -195,7 +198,7 @@ h1.text {
     top: 65px;
     height: 320px;
     width: 320px;
-    background-image: url(logoLarge.png);
+    background-image: url(../assets/images/logoLarge.png);
     background-size: 300px 300px;
     border-radius: 50%;
 }
