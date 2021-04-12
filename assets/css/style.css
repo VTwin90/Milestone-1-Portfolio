@@ -247,6 +247,35 @@ h1.text {
   margin-bottom: 40px 20px;
 }
 
+/* Back to Top arrow */
+.backtotop {
+  padding: 0px 0px 0px 50px;
+}
+
+.backtotop a i {
+  position: fixed;
+  bottom: 0;
+  width: 52px;
+  height: 52px;
+  padding: 22px 0;
+  margin: 15px 0;
+  border-radius: 50%;
+  font-size: 1.4375rem;
+  line-height: 7px;
+  text-align: center;
+  justify-content: center;
+  color: #29084C;
+  background: #D1CCCC;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out; 
+}
+
+.backtotop a i:hover {
+   color: #D1CCCC;
+   background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+}
 
 /* Footer */
 
