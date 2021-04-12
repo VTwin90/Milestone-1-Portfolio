@@ -15,7 +15,7 @@ background-color: #0a0c3f;
 /* Nav */
 nav {
     background-color: #0a0c3f;
-    font-family: Roboto;
+    font-family: 'Montserrat';
     color: #D1CCCC;
     margin: 0;
     padding: 0;
@@ -40,7 +40,9 @@ nav {
 /* Typography */
 
 a {
-	color: #D1CCCC;
+  color: #D1CCCC;
+  font-size: 20px;
+  justify-content: left;
 }
 
 h1.slogan {
@@ -54,18 +56,21 @@ h1 {
   color: #D1CCCC;
   text-align: center;
   font-size: 50px;
+  font-family: 'Oswald', sans-serif;
 } 
 
 h2, h3 {
   color: #D1CCCC;
   text-align: center;
   font-size: 40px;
+  font-family: 'Oswald', sans-serif;
 }
 
 p {
   color: #D1CCCC;
-  font-size: 23px;
+  font-size: 24px;
   text-align: justify;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
