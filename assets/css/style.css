@@ -88,6 +88,10 @@ p {
 
 
 /* Sections */
+.heroimage {
+  padding: 5%;
+}
+
 #aboutme {
   background-color: #0a0c3f;;
   opacity: 1;
@@ -112,6 +116,7 @@ p {
   height: auto;
   float: right;
   padding: 0% 0% 0% 3%;
+  opacity: 1;
 }
 
 /*Project Showcase code adapted from https://bbbootstrap.com/snippets/bootstrap-image-hover-effects-64168738 */
@@ -122,7 +127,9 @@ p {
     width: 450px;
     position: relative;
     cursor: pointer;
-    margin: 0 15px;
+    margin: 0;
+    padding: 0px;
+    border: 0;
 }
 
 .image:after {
@@ -203,8 +210,9 @@ h1.text {
     top: 65px;
     height: 320px;
     width: 320px;
-    background-image: url(../assets/images/logoLarge.png);
-    background-size: 300px 300px;
+    background-image: url(assets/images/logoLarge.png);
+    background-repeat: no-repeat;
+    background-size: 325px 325px;
     border-radius: 50%;
 }
 
@@ -244,12 +252,12 @@ h1.text {
 
 footer {
    background-color: #0a0c3f;
-    font-family: Roboto;
+    font-family: 'Montserrat';
     color: #D1CCCC;
     display: flex;
     justify-content: center;
-    padding: 10px;
-  
+    padding: 15px;
+    justify-content: center;
 }
 
 /*  Media Screens*/
