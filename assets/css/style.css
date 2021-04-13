@@ -91,19 +91,19 @@ p {
   background-color: #0a0c3f;;
   opacity: 1;
   margin: 5% 0;
-  padding: 8% 5% 8% 5%;
+  padding: 6% 5% 6% 5%;
 }
 
 #projects {
   margin: 5% 0;
-  padding: 8% 5% 8% 5%;
+  padding: 6% 5% 6% 5%;
 }
 
 #contact {
   background-color: #0a0c3f;
   opacity: 1;
   margin: 5% 0;
-  padding: 8% 5% 8% 5%;
+  padding: 6% 5% 6% 5%;
 }
 
 /* Portrait*/
@@ -112,7 +112,7 @@ p {
   max-width: 100%;
   height: auto;
   float: right;
-  padding: 0% 0% 0% 3%;
+  padding: 2% 0% 2% 3%;
   opacity: 1;
 }
 
