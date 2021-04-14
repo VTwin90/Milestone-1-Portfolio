@@ -227,7 +227,6 @@
          </div>
      </section>
 
-
     <!----------------Contact Section --------------->
      <section class="container-fluid" id="contact">
          <div class="row justify-content-center p-3 mb-2 bg-transparent text-dark"> 
@@ -235,19 +234,36 @@
                  <h1>Lets Grab a Coffee!</h1>
                  <h2>The first one</h2>
                  <h3>is on me</h3>
-                 <div class="form-group">
-                     <input type="text" class="form-control" placeholder="Your Name" name="">
-                 </div>  
-                 <div class="form-group">
-                     <input type="email" class="form-control" placeholder="Your Email Address" name="email">
-                 </div>
-                 <div class="form-group">
-                     <textarea class="form-control" placeholder="Your Message" rows="4"></textarea>
-                 </div>
-                     <input type="submit" class="btn btn-secondary btn-block" value="Send Message" name="">
+                 <form id="contactform">  
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" name="Name" required="required">
+                    </div>  
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Your Email Address" name="Email" required="required">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="message" placeholder="Your Message" name="Message" rows="4" required="required"></textarea>
+                    </div>
+                        <input type="submit" class="btn btn-secondary btn-block" data-toggle="modal" data-target="#exampleModal" value="Send Message" name="send-message" required>
+                 </form> 
              </div>
          </div>
      </section>
+
+      <!-- Modal adapted from bootstrap -->
+        <div class="modal" id="sentmodal" role="dialog" tabindex="-1" aria-labelledby="sentmodaltitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-center" id="sentmodaltitle">Yay, your message has been succesfully sent!</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                             <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
    <!--------------------Back To Top Arrow------------------->
      <div class="backtotop">
@@ -291,5 +307,11 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+     <!-- Modal JS taken from https://codepen.io/dasan/pen/vqaLPe-->
+    <script>$('#contactform').on('submit', function (e) {
+            $('#sentmodal').modal('show');
+            e.preventDefault();
+        });</script>
  </body>
 </html>
