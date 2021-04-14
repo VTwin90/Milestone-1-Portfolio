@@ -22,11 +22,6 @@ nav {
     border: 0;
 }
 
-.navbar {
-   justify-content: left;
-    margin: 0;
-}
-
 .navbar-brand {
     display: inline-block;
     padding-top: .3125rem;
