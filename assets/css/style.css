@@ -52,6 +52,16 @@ h1.slogan {
  font-size: 45px;
 }
 
+/* Gradient text adapted from https://cssgradient.io/blog/css-gradient-text/ */
+h1.sloganphrase {
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+   background: -webkit-linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 15px 0;
+}
+
 h1 {
   color: #D1CCCC;
   text-align: center;
@@ -530,11 +540,11 @@ footer {
 {  
    .image {
      height: 250px;
-     width: 580px;
+     width: 80vh;
   }
 
   .image:after {
-     width: 490px;
+     width: 80vh;
      height: 251px;
   }
 }
