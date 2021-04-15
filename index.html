@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Vanja Torp" content="Vanja Torp Full Stack Software Developer"/>
-<!----------------Favicon and Credit --------------->
+    <meta name="Vanja Torp" content="Vanja Torp Full Stack Software Developer" />
+    <!----------------Favicon and Credit --------------->
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="./assets/images/favicon/favicon.ico" />
     <link rel="manifest" href="./assets/images/favicon/site.webmanifest">
-<!----------------Stylesheets --------------->
+    <!----------------Stylesheets --------------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -24,38 +25,41 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-------------------------------Header ----------------------------->
     <header>
-    <!----------------Navigation customised from BOOTSTRAP -------------->
+        <!----------------Navigation customised from BOOTSTRAP -------------->
         <div class="flex-container">
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-                <a class="navbar-brand" href="index.html"><img src="assets/images/logoNav.png" alt="logo" width="70" height="70"/>
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logoNav.png" alt="logo" width="70"
+                        height="70" />
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-lg-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
                             <a class="nav-link scroll-link" href="index.html">
                                 <i class="fas fa-home"></i>
                                 Home <span class="sr-only">(current)</span>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                             <a class="nav-link scroll-link" href="#aboutme">
-                                <i class="fas fa-smile-beam"></i> 
+                                <i class="fas fa-smile-beam"></i>
                                 About Me
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                             <a class="nav-link scroll-link" href="#projects">
-                                <i class="fas fa-briefcase"></i> 
+                                <i class="fas fa-briefcase"></i>
                                 Projects
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link scroll-link" href="#contact">
-                                <i class="fas fa-envelope"></i>
-                                Contact
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                            <a class=" nav-link scroll-link" href="#contact">
+                            <i class="fas fa-envelope"></i>
+                            Contact
                             </a>
                         </li>
                         <li class="nav-item">
@@ -68,251 +72,275 @@
                 </div>
             </nav>
         </div>
-    </header>    
+    </header>
 
     <!----------------Hero Image & Slogan/Landing page--------------->
-     <section class="container-fluid heroimage">
-         <div class="row justify-content-center"> 
-             <div class="col-12">
-                 <div class="outer-ring center"></div>
-                 <div class="inner-ring center"></div>
-                 <div class="col-12">
-                     <h1 class="slogan"> Full Stack Software Developer</h1>
-                     <h1 class="sloganphrase"> Design, Develop & Create</h1>
-                 </div>
-             </div>
-         </div>     
-     </section>    
+    <section class="container-fluid heroimage">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="outer-ring center"></div>
+                <div class="inner-ring center"></div>
+                <div class="col-12">
+                    <h1 class="slogan"> Full Stack Software Developer</h1>
+                    <h1 class="sloganphrase"> Design, Develop & Create</h1>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!----------------About Me Section --------------->
-     <section class="container-fluid" id="aboutme">
-         <div class="row justify-content-center p-3 mb-2 bg-transparent text-dark"> 
-             <div class="col-12">
+    <section class="container-fluid" id="aboutme">
+        <div class="row justify-content-center p-3 mb-2 bg-transparent text-dark">
+            <div class="col-12">
                 <h1>About Me</h1>
-             </div>
-             <div class="col"> 
-                 <p> Hi there! I appreciate that you have taken the interest to
-                     learn a bit more about me. I am currently a student at Code Institutes Full Stack Software Development program to career change into tech, after working in the hospitality, events, startup, business and logistic industry in different capacities for some time now.   I am a graduate of Queen Margaret University, Edinburgh Scotland, where I received distinctions both in my MSc International Management and Leadership and BA Event Management degrees.
-                 </p>
-                 <img src="assets/images/portrait.png" class="img-fluid" id="portrait" alt="Vanja Torp Portrait"/>
-                 <h2> Investor & Traveller</h2>
-                 <p> When I am not keeping busy with programming and tech, you can find me following my investments in the stock market, as well as continuing to invest in myself with new skills and knowledge. If not that then I enjoy traveling(currently been in 15 different countries, hoping for more after Covid) and meeting new people from other cultures and backgrounds.
-                 </p>
-                 <h2> Reader & Film Enthusiast</h2>
-                 <p>I am an avid reader and film enthusiast. I am currently reading: Security Analysis by Graham and Dodd. When I have the time I enjoy a bit of gaming, especially games with a focus on good story telling. 
-                    In case you have not had enough yet I am also learning a bit of boxing and Spanish. If this has piqued your interest for getting to know me more, then take action and reach out to me.
-                 </p>
-             </div>
-         </div>
-         <div class="row progress-section">
+            </div>
+            <div class="col">
+                <p> Hi there! I appreciate that you have taken the interest to
+                    learn a bit more about me. I am currently a student at Code Institutes Full Stack Software
+                    Development program to career change into tech, after working in the hospitality, events, startup,
+                    business and logistic industry in different capacities for some time now. I am a graduate of Queen
+                    Margaret University, Edinburgh Scotland, where I received distinctions both in my MSc International
+                    Management and Leadership and BA Event Management degrees.
+                </p>
+                <img src="assets/images/portrait.png" class="img-fluid" id="portrait" alt="Vanja Torp Portrait" />
+                <h2> Investor & Traveller</h2>
+                <p> When I am not keeping busy with programming and tech, you can find me following my investments in
+                    the stock market, as well as continuing to invest in myself with new skills and knowledge. If not
+                    that then I enjoy traveling(currently been in 15 different countries, hoping for more after Covid)
+                    and meeting new people from other cultures and backgrounds.
+                </p>
+                <h2> Reader & Film Enthusiast</h2>
+                <p>I am an avid reader and film enthusiast. I am currently reading: Security Analysis by Graham and
+                    Dodd. When I have the time I enjoy a bit of gaming, especially games with a focus on good story
+                    telling.
+                    In case you have not had enough yet I am also learning a bit of boxing and Spanish. If this has
+                    piqued your interest for getting to know me more, then take action and reach out to me.
+                </p>
+            </div>
+        </div>
+        <div class="row progress-section">
             <div class="col-md-12 col-lg-4">
-                 <h3>Skills</h3>
+                <h3>Skills</h3>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
-                         <span class="sr-only">90% complete</span>
-                         <span class="progress-type">HTML</span> 
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                        aria-valuemax="100" style="width:90%;">
+                        <span class="sr-only">90% complete</span>
+                        <span class="progress-type">HTML</span>
                     </div>
                 </div>
-                 <div class="progress">
-                     <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
-                         <span class="sr-only">80% complete</span>
-                         <span class="progress-type">CSS</span> 
-                     </div>
-                 </div>
-                 <div class="progress">
-                     <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;">
-                         <span class="sr-only">70% complete</span>
-                         <span class="progress-type">Bootstrap</span> 
-                     </div>
-                 </div>
-             </div>
-             <div class="col-md-12 col-lg-4">
-                 <h3>Learning</h3>
-                 <div class="progress">
-                     <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                         <span class="sr-only">0% complete</span>
-                         <span class="progress-type">JS,Python</span> 
-                     </div>
-                 </div>
-                 <div class="progress">
-                     <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                         <span class="sr-only">0% complete</span>
-                         <span class="progress-type">Flask, JQuery</span> 
-                     </div>
-                 </div>
-                 <div class="progress">
-                     <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                         <span class="sr-only">0% complete</span>
-                         <span class="progress-type">MongoDB,Django</span> 
-                     </div>
-                 </div>
-             </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                        aria-valuemax="100" style="width:80%;">
+                        <span class="sr-only">80% complete</span>
+                        <span class="progress-type">CSS</span>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                        aria-valuemax="100" style="width:70%;">
+                        <span class="sr-only">70% complete</span>
+                        <span class="progress-type">Bootstrap</span>
+                    </div>
+                </div>
+            </div>
             <div class="col-md-12 col-lg-4">
-                 <h3>Want to Learn</h3>
-                 <div class="progress">
-                     <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                         <span class="sr-only">0% complete</span>
-                         <span class="progress-type">React, Angular</span> 
-                     </div>
-                 </div>
-                 <div class="progress">
-                     <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                         <span class="sr-only">0% complete</span>
-                         <span class="progress-type">Swift, Ethical Hacking</span> 
-                     </div>
-                 </div>
-                 <div class="progress">
-                     <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%;">
-                         <span class="sr-only">0% complete</span>
-                         <span class="progress-type">VR, AI</span> 
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </section>      
-
-    <!----------------Projects Section --------------->
-     <section class="container-fluid" id="projects">
-         <div class="col-12">
-                <h1>Projects</h1>
-         </div>
-         <div class="row">
-             <div class="col-md-4">
-                 <div class="image"> 
-                     <img src="https://i.imgur.com/GV2rUU0.jpg" alt=""/> 
-                     <a target="_blank" href="https://www.instagram.com/vanja.torp/">
-                         <h1 class="text">Project 1</h1>
-                     </a>
-                 </div>
-             </div>
-             <div class="col-md-4">
-                 <div class="image"> 
-                     <img src="https://i.imgur.com/MMfaOcL.jpg" alt=""/> 
-                     <a target="_blank" href="https://www.instagram.com/vanja.torp/">
-                         <h1 class="text">Project 2</h1>
-                     </a>
-                 </div>
-             </div>
-             <div class="col-md-4">
-                 <div class="image"> 
-                     <img src="https://i.imgur.com/nOeI05p.jpg" alt="">
-                     <a target="_blank" href="https://www.instagram.com/vanja.torp/"> 
-                         <h1 class="text">Project 3</h1> 
-                     </a>
-                 </div>
-             </div>
-             <div class="col-md-4">
-                 <div class="image"> 
-                     <img src="https://i.imgur.com/nOeI05p.jpg" alt=""> 
-                     <a target="_blank" href="https://www.instagram.com/vanja.torp/">
-                         <h1 class="text">Project 4</h1> 
-                     </a>
-                 </div>
-             </div>
-             <div class="col-md-4">
-                 <div class="image"> 
-                     <img src="https://i.imgur.com/nOeI05p.jpg" alt=""> 
-                     <a target="_blank" href="https://www.instagram.com/vanja.torp/">
-                         <h1 class="text">Project 5</h1> 
-                     </a>
-                 </div>
-             </div>
-             <div class="col-md-4">
-                 <div class="image"> 
-                     <img src="https://i.imgur.com/nOeI05p.jpg" alt=""> 
-                     <a target="_blank" href="https://www.instagram.com/vanja.torp/">
-                         <h1 class="text">Project 6</h1> 
-                     </a>
-                 </div>
-             </div>
-         </div>
-     </section>
-
-    <!----------------Contact Section --------------->
-     <section class="container-fluid" id="contact">
-         <div class="row justify-content-center p-3 mb-2 bg-transparent text-dark"> 
-             <div class="col-12 col-md-10">
-                 <h1>Lets Grab a Coffee!</h1>
-                 <h2>The first one</h2>
-                 <h3>is on me</h3>
-                 <form id="contactform">  
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="name" placeholder="Your Name" name="Name" required="required">
-                    </div>  
-                    <div class="form-group">
-                        <input type="email" class="form-control" id="email" placeholder="Your Email Address" name="Email" required="required">
+                <h3>Learning</h3>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                        style="width:0%;">
+                        <span class="sr-only">0% complete</span>
+                        <span class="progress-type">JS,Python</span>
                     </div>
-                    <div class="form-group">
-                        <textarea class="form-control" id="message" placeholder="Your Message" name="Message" rows="4" required="required"></textarea>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                        style="width:0%;">
+                        <span class="sr-only">0% complete</span>
+                        <span class="progress-type">Flask, JQuery</span>
                     </div>
-                        <input type="submit" class="btn btn-secondary btn-block" data-toggle="modal" data-target="#exampleModal" value="Send Message" name="send-message" required>
-                 </form> 
-             </div>
-         </div>
-     </section>
-
-      <!-- Modal adapted from bootstrap -->
-        <div class="modal" id="sentmodal" role="dialog" tabindex="-1" aria-labelledby="sentmodaltitle"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3 class="modal-title text-center" id="sentmodaltitle">Yay, your message has been succesfully sent!</h3>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                             <span aria-hidden="true">&times;</span>
-                        </button>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                        style="width:0%;">
+                        <span class="sr-only">0% complete</span>
+                        <span class="progress-type">MongoDB,Django</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <h3>Want to Learn</h3>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                        style="width:0%;">
+                        <span class="sr-only">0% complete</span>
+                        <span class="progress-type">React, Angular</span>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                        style="width:0%;">
+                        <span class="sr-only">0% complete</span>
+                        <span class="progress-type">Swift, Ethical Hacking</span>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                        style="width:0%;">
+                        <span class="sr-only">0% complete</span>
+                        <span class="progress-type">VR, AI</span>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-   <!--------------------Back To Top Arrow------------------->
-     <div class="backtotop">
-         <div class="row">
-             <div class="col-12">
-                 <a href="#top">
-                     <i class="fas fa-chevron-circle-up" aria-hidden="true"></i>
-                 </a>
-             </div> 
-         </div>
-     </div>
+    <!----------------Projects Section --------------->
+    <section class="container-fluid" id="projects">
+        <div class="col-12">
+            <h1>Projects</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="image">
+                    <img src="https://i.imgur.com/GV2rUU0.jpg" alt="" />
+                    <a target="_blank" href="https://www.instagram.com/vanja.torp/">
+                        <h1 class="text">Project 1</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="image">
+                    <img src="https://i.imgur.com/MMfaOcL.jpg" alt="" />
+                    <a target="_blank" href="https://www.instagram.com/vanja.torp/">
+                        <h1 class="text">Project 2</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="image">
+                    <img src="https://i.imgur.com/nOeI05p.jpg" alt="">
+                    <a target="_blank" href="https://www.instagram.com/vanja.torp/">
+                        <h1 class="text">Project 3</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="image">
+                    <img src="https://i.imgur.com/nOeI05p.jpg" alt="">
+                    <a target="_blank" href="https://www.instagram.com/vanja.torp/">
+                        <h1 class="text">Project 4</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="image">
+                    <img src="https://i.imgur.com/nOeI05p.jpg" alt="">
+                    <a target="_blank" href="https://www.instagram.com/vanja.torp/">
+                        <h1 class="text">Project 5</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="image">
+                    <img src="https://i.imgur.com/nOeI05p.jpg" alt="">
+                    <a target="_blank" href="https://www.instagram.com/vanja.torp/">
+                        <h1 class="text">Project 6</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------Contact Section --------------->
+    <section class="container-fluid" id="contact">
+        <div class="row justify-content-center p-3 mb-2 bg-transparent text-dark">
+            <div class="col-12 col-md-10">
+                <h1>Lets Grab a Coffee!</h1>
+                <h2>The first one</h2>
+                <h3>is on me</h3>
+                <form id="contactform">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" name="Name"
+                            required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Your Email Address"
+                            name="Email" required="required">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="message" placeholder="Your Message" name="Message" rows="4"
+                            required="required"></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-secondary btn-block" data-toggle="modal"
+                        data-target="#exampleModal" value="Send Message" name="send-message" required>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal adapted from bootstrap -->
+    <div class="modal" id="sentmodal" role="dialog" tabindex="-1" aria-labelledby="sentmodaltitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-center" id="sentmodaltitle">Yay, your message has been succesfully sent!
+                    </h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------Back To Top Arrow------------------->
+    <div class="backtotop">
+        <div class="row">
+            <div class="col-12">
+                <a href="#top">
+                    <i class="fas fa-chevron-circle-up" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 
     <!--------------------Footer------------------->
-     <footer id="footer">
-         <div class="row">
-             <div class="col-12">
-                 <ul class="social-links">
-                     <li class="list-inline-item">
-                         <a target="_blank" href="https://github.com/VTwin90">
-                             <i class="fab fa-github" aria-hidden="true"></i>
-                             <span class="sr-only">GitHub</span>
-                         </a>
-                     </li>
-                     <li class="list-inline-item">
-                         <a target="_blank" href="https://www.instagram.com/vanja.torp/">
-                             <i class="fab fa-instagram" aria-hidden="true"></i>
-                             <span class="sr-only">Instagram</span>
-                         </a>
-                     </li>
-                     <li class="list-inline-item">
-                         <a target="_blank" href="https://www.linkedin.com/in/vanja-torp/">
-                             <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                             <span class="sr-only">LinkedIn</span>
-                         </a>
-                     </li>
-                 </ul>
-             </div>
-         </div>
-        </footer>
+    <footer id="footer">
+        <div class="row">
+            <div class="col-12">
+                <ul class="social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://github.com/VTwin90">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span class="sr-only">GitHub</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/vanja.torp/">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.linkedin.com/in/vanja-torp/">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <!-------------Scripts from BOOTSTRAP----------->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-     <!-- Modal JS taken from https://codepen.io/dasan/pen/vqaLPe-->
+    <!-- Modal JS taken from https://codepen.io/dasan/pen/vqaLPe-->
     <script>$('#contactform').on('submit', function (e) {
             $('#sentmodal').modal('show');
             e.preventDefault();
         });</script>
- </body>
+</body>
+
 </html>
