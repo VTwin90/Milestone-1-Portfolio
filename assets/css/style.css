@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-   }
+}
 
 body {
     background-color: #29084C;
@@ -9,7 +9,7 @@ body {
 }
 
 header {
-background-color: #0a0c3f;
+    background-color: #0a0c3f;
 }
 
 /* Nav */
@@ -32,104 +32,104 @@ nav {
     line-height: inherit;
 }
 
-/* Sections */
-    section:before {
-        height: 54px;
-        content: "";
-        display: block;
-    }
+section:before {
+    height: 54px;
+    content: "";
+    display: block;
+}
+
+section {
+    height: 100vh;
+}
 
 /* Typography */
-
 a {
-  color: #D1CCCC;
-  font-size: 20px;
-  justify-content: left;
+    color: #D1CCCC;
+    font-size: 20px;
+    justify-content: left;
 }
 
 h1.slogan {
- color: #D1CCCC;
- text-align: center;
- padding: 26rem 0rem 0rem 0rem;
- font-size: 45px;
+    color: #D1CCCC;
+    text-align: center;
+    padding: 26rem 0rem 0rem 0rem;
+    font-size: 45px;
 }
 
 /* Gradient text adapted from https://cssgradient.io/blog/css-gradient-text/ */
 h1.sloganphrase {
-  font-family: 'Sacramento', cursive;
-  font-size: 90px;
-   background: -webkit-linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding: 15px 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    background: -webkit-linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 15px 0;
 }
 
 h1 {
-  color: #D1CCCC;
-  text-align: center;
-  font-size: 50px;
-  font-family: 'Oswald', sans-serif;
-} 
+    color: #D1CCCC;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
 
-h2, h3 {
-  color: #D1CCCC;
-  text-align: center;
-  font-size: 40px;
-  font-family: 'Oswald', sans-serif;
+h2,
+h3 {
+    color: #D1CCCC;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
 }
 
 p {
-  color: #D1CCCC;
-  font-size: 24px;
-  text-align: justify;
-  font-family: 'Montserrat', sans-serif;
+    color: #D1CCCC;
+    font-size: 24px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
 }
 
-
 /* Layout/Grid */
-
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Sections */
 .heroimage {
-  padding: 5%;
+    padding: 5%;
 }
 
 #aboutme {
-  background-color: #0a0c3f;;
-  opacity: 1;
-  margin: 5% 0;
-  padding: 6% 5% 6% 5%;
+    background-color: #0a0c3f;
+    ;
+    opacity: 1;
+    margin: 5% 0;
+    padding: 6% 5% 6% 5%;
 }
 
 #projects {
-  margin: 5% 0;
-  padding: 6% 5% 6% 5%;
+    margin: 5% 0;
+    padding: 6% 5% 6% 5%;
 }
 
 #contact {
-  background-color: #0a0c3f;
-  opacity: 1;
-  margin: 0;
-  padding: 6% 5% 6% 5%;
+    background-color: #0a0c3f;
+    opacity: 1;
+    margin: 0;
+    padding: 6% 5% 6% 5%;
 }
 
 /* Portrait*/
-
 #portrait {
-  max-width: 100%;
-  height: auto;
-  float: right;
-  padding: 2% 0% 2% 3%;
-  opacity: 1;
+    max-width: 100%;
+    height: auto;
+    float: right;
+    padding: 2% 0% 2% 3%;
+    opacity: 1;
 }
 
 /*Project Showcase code adapted from https://bbbootstrap.com/snippets/bootstrap-image-hover-effects-64168738 */
-
 .image {
     overflow: hidden;
     height: 450px;
@@ -176,46 +176,43 @@ h1.text {
 }
 
 /* Contact Form */
-
 .form-group {
-  padding: 15px;
-  margin: 0 auto;
-  max-width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 .btn {
-  padding: 20px;
-  margin: 0 auto;
-  max-width: 85%;
-  color: #D1CCCC;
-  background-color: #29084C; 
-  font-size: 18px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 85%;
+    color: #D1CCCC;
+    background-color: #29084C;
+    font-size: 18px;
 }
 
 .btn:hover {
-   background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+    background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
 }
 
-
- /* Circle Animation CSS Customised from https://codepen.io/Olwiba/pen/XRVrZQ */
- 
- .center {
-  margin: 0 auto;
+/* Circle Animation CSS Customised from https://codepen.io/Olwiba/pen/XRVrZQ */
+.center {
+    margin: 0 auto;
 }
 
 .outer-ring {
-  position: absolute;
-  left: calc(50% - 140px);
-  top: 50px;
-  height: 350px;
-  width: 350px;
-  background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
-  border-radius: 50%;
-  
-  /*  Rotate  */
-  animation-duration: 2s;
-  animation-name: rotate;
-  animation-iteration-count: infinite;
+    position: absolute;
+    left: calc(50% - 140px);
+    top: 50px;
+    height: 350px;
+    width: 350px;
+    background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+    border-radius: 50%;
+
+    /*  Rotate  */
+    animation-duration: 2s;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
 }
 
 .inner-ring {
@@ -231,69 +228,73 @@ h1.text {
 }
 
 @keyframes rotate {
-    0% {transform:rotate(0deg);}
-    100% {transform:rotate(360deg);}
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 /*  Circle Animation CSS Customised Finished*/
 
-
 /*  Skills/Progress Bar Customised from CI Rosie Resume*/
 
 .progress {
-  position: relative;
-  height: 25px;
-  margin-bottom:  4px;
-  background-color: #D1CCCC; 
-  color: #29084C;
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+    background-color: #D1CCCC;
+    color: #29084C;
 }
 
 .progress-type {
-  position: absolute; 
-  left: 0px;
-  font-weight: 400;
-  font-size: 14px;
-  padding: 3px 30px 2px 10px;
-  color: #0a0c3f;
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 3px 30px 2px 10px;
+    color: #0a0c3f;
 }
 
 .progress-section {
-  margin-bottom: 40px 20px;
+    margin-bottom: 40px 20px;
 }
 
 /* Back to Top arrow */
 .backtotop {
-  padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 50px;
 }
 
 .backtotop a i {
-  position: fixed;
-  bottom: 0;
-  width: 52px;
-  height: 52px;
-  padding: 22px 0;
-  margin: 15px 0;
-  border-radius: 50%;
-  font-size: 1.4375rem;
-  line-height: 7px;
-  text-align: center;
-  justify-content: center;
-  color: #29084C;
-  background: #D1CCCC;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out; 
+    position: fixed;
+    bottom: 0;
+    width: 52px;
+    height: 52px;
+    padding: 22px 0;
+    margin: 15px 0;
+    border-radius: 50%;
+    font-size: 1.4375rem;
+    line-height: 7px;
+    text-align: center;
+    justify-content: center;
+    color: #29084C;
+    background: #D1CCCC;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .backtotop a i:hover {
-   color: #D1CCCC;
-   background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+    color: #D1CCCC;
+    background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
 }
 
 /* Footer */
 footer {
-   background-color: #0a0c3f;
+    background-color: #0a0c3f;
     font-family: 'Montserrat';
     color: #D1CCCC;
     display: flex;
@@ -322,315 +323,305 @@ footer {
 
 .social-links li a i:hover {
     color: #D1CCCC;
-   background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+    background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
 }
 
 /*  Media Screens*/
+@media (min-width: 280px) and (max-width: 320px) {
+    .outer-ring {
+        left: calc(50% - 100px);
+        top: 90px;
+        height: 200px;
+        width: 200px;
+    }
 
-@media (min-width: 280px) and (max-width: 320px)
-{  
-  .outer-ring {
-     left: calc(50% - 100px);
-     top: 90px;
-     height: 200px;
-     width: 200px;
-  }
+    .inner-ring {
+        left: calc(50% - 90px);
+        top: 100px;
+        height: 180px;
+        width: 180px;
+        background-size: 190px 190px;
+    }
 
-  .inner-ring {
-     left: calc(50% - 90px);
-     top: 100px;
-     height: 180px;
-     width: 180px;
-     background-size: 190px 190px;
-  }
+    h1.slogan {
+        font-size: 20px;
+        padding-top: 300px;
+    }
 
-  h1.slogan {
-     font-size: 20px;
-     padding-top: 300px;
-   }
+    h1.sloganphrase {
+        font-size: 24px;
+        padding: 10px 0;
+    }
 
-  h1.sloganphrase { 
-     font-size: 24px;
-     padding: 10px 0;
-   }
+    h1 {
+        font-size: 22px;
+    }
 
-   h1 {
-     font-size: 22px;
-   }
+    h2 {
+        font-size: 20px;
+    }
 
-   h2 {
-     font-size: 20px;
-   }
+    h3 {
+        font-size: 18px;
+    }
 
-   h3 {
-     font-size: 18px;
-   } 
-   p {
-     font-size: 16px;
-     text-align: inherit;
-  }
-   
-   img.sloganimage {
-     width: 240px;
-     height: 100px;
-   }
+    p {
+        font-size: 16px;
+        text-align: inherit;
+    }
 
-   .image {
-     height: 250px;
-     width: 250px;
-  }
+    img.sloganimage {
+        width: 240px;
+        height: 100px;
+    }
 
-  .image:after {
-     width: 365px;
-     height: 251px;
-  }
-
-  .backtotop {
-     padding: 0px 0px 0px 10px;
-  }
-
-  .backtotop a i {
-     width: 42px;
-     height: 40px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 360px)
-{  
-   .image {
-     height: 250px;
-     width: 280px;
-  }
-
-  .image:after {
-     width: 365px;
-     height: 251px;
-  }
-
-}
-
-@media (min-width: 360px) and (max-width: 375px)
-{  
-  .outer-ring {
-     left: calc(50% - 120px);
-     top: 90px;
-     height: 250px;
-     width: 250px;
-  }
-
-  .inner-ring {
-     left: calc(50% - 110px);
-     top: 100px;
-     height: 230px;
-     width: 230px;
-     background-size: 240px 240px;
-  }
-
-  h1.slogan {
-     font-size: 30px;
-     padding-top: 350px;
-   }
-
-  h1.sloganphrase { 
-     font-size: 50px;
-     padding: 10px 0;
-  }
-
-   h1 {
-     font-size: 35px;
-   }
-
-   h2 {
-     font-size: 30px;
-   }
-
-   h3 {
-     font-size: 18px;
-   } 
-   p {
-     font-size: 18px;
-  }
-   
-   img.sloganimage {
-     width: 240px;
-     height: 100px;
-   }
-
-   .image {
-     height: 250px;
-     width: 315px;
-  }
-
-  .image:after {
-     width: 395px;
-     height: 251px;
-  }
-
-  .backtotop {
-     padding: 0px 0px 0px 20px;
-  }   
-
-  .backtotop a i {
-     width: 52px;
-     height: 52px;
-  }
-}
-
-@media (min-width: 375px) and (max-width: 411px)
-{  
-   .image {
-     height: 250px;
-     width: 345px;
-  }
-
-  .image:after {
-     width: 435px;
-     height: 251px;
-  }
-}
-
-@media (min-width: 411px) and (max-width: 540px)
-{  
-  .outer-ring {
-     left: calc(50% - 120px);
-     top: 90px;
-     height: 250px;
-     width: 250px;
-  }
-
-  .inner-ring {
-     left: calc(50% - 110px);
-     top: 100px;
-     height: 230px;
-     width: 230px;
-     background-size: 240px 240px;
-  }
-
-  h1.slogan {
-     font-size: 30px;
-     padding-top: 350px;
-  }
-
-  h1.sloganphrase { 
-     font-size: 50px;
-     padding: 10px 0;
-  }
-
-   h1 {
-     font-size: 35px;
-  }
-
-   h2 {
-     font-size: 30px;
-  }
-
-   h3 {
-     font-size: 18px;
-  } 
-
-   p {
-     font-size: 18px;
-  }
-   
-   img.sloganimage {
-     width: 240px;
-     height: 100px;
-  }
-
-   .image {
-     height: 250px;
-     width: 380px;
-  }
-
-  .image:after {
-     width: 490px;
-     height: 251px;
-  }
-
-  .backtotop {
-     padding: 0px 0px 0px 20px;
-  }
-
-  .backtotop a i {
-     width: 52px;
-     height: 52px;
-  }
-}
-
-@media (min-width: 540px) and (max-width: 768px)
-{  
-   .image {
-     height: 250px;
-     width: 490px;
-  }
-
-  .image:after {
-     width: 620px;
-     height: 251px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1024px)
-{  
-  .outer-ring {
-     left: calc(50% - 150px);
-     top: 80px;
-  }
-
-  .inner-ring {
-     left: calc(50% - 135px);
-     top: 95px;
-  }
-
-  h1.slogan {
-     padding-top: 450px;
-  }
     .image {
-     height: 250px;
-     width: 225px;
-  }
+        height: 250px;
+        width: 250px;
+    }
 
-  .image:after {
-     width: 360px;
-     height: 300px;
-  }
+    .image:after {
+        width: 365px;
+        height: 251px;
+    }
+
+    .backtotop {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .backtotop a i {
+        width: 42px;
+        height: 40px;
+    }
 }
 
-@media (min-width: 1024px) and (max-width: 1336px)
-{  
-  .outer-ring {
-     top: 80px;
-  }
-
-  .inner-ring {
-     top: 95px;
-  }
-
-  h1.slogan {
-     padding-top: 450px;
-  }
+@media (min-width: 320px) and (max-width: 360px) {
     .image {
-     height: 300px;
-     width: 290px;
-  }
+        height: 250px;
+        width: 280px;
+    }
 
-  .image:after {
-     width: 360px;
-     height: 300px;
-  }
+    .image:after {
+        width: 365px;
+        height: 251px;
+    }
+
+}
+
+@media (min-width: 360px) and (max-width: 375px) {
+    .outer-ring {
+        left: calc(50% - 120px);
+        top: 90px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .inner-ring {
+        left: calc(50% - 110px);
+        top: 100px;
+        height: 230px;
+        width: 230px;
+        background-size: 240px 240px;
+    }
+
+    h1.slogan {
+        font-size: 30px;
+        padding-top: 350px;
+    }
+
+    h1.sloganphrase {
+        font-size: 50px;
+        padding: 10px 0;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    img.sloganimage {
+        width: 240px;
+        height: 100px;
+    }
+
+    .image {
+        height: 250px;
+        width: 315px;
+    }
+
+    .image:after {
+        width: 395px;
+        height: 251px;
+    }
+
+    .backtotop {
+        padding: 0px 0px 0px 20px;
+    }
+
+    .backtotop a i {
+        width: 52px;
+        height: 52px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 411px) {
+    .image {
+        height: 250px;
+        width: 345px;
+    }
+
+    .image:after {
+        width: 435px;
+        height: 251px;
+    }
+}
+
+@media (min-width: 411px) and (max-width: 540px) {
+    .outer-ring {
+        left: calc(50% - 120px);
+        top: 90px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .inner-ring {
+        left: calc(50% - 110px);
+        top: 100px;
+        height: 230px;
+        width: 230px;
+        background-size: 240px 240px;
+    }
+
+    h1.slogan {
+        font-size: 30px;
+        padding-top: 350px;
+    }
+
+    h1.sloganphrase {
+        font-size: 50px;
+        padding: 10px 0;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    img.sloganimage {
+        width: 240px;
+        height: 100px;
+    }
+
+    .image {
+        height: 250px;
+        width: 380px;
+    }
+
+    .image:after {
+        width: 490px;
+        height: 251px;
+    }
+
+    .backtotop {
+        padding: 0px 0px 0px 20px;
+    }
+
+    .backtotop a i {
+        width: 52px;
+        height: 52px;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 768px) {
+    .image {
+        height: 250px;
+        width: 490px;
+    }
+
+    .image:after {
+        width: 620px;
+        height: 251px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .outer-ring {
+        left: calc(50% - 150px);
+        top: 80px;
+    }
+
+    .inner-ring {
+        left: calc(50% - 135px);
+        top: 95px;
+    }
+
+    h1.slogan {
+        padding-top: 450px;
+    }
+
+    .image {
+        height: 250px;
+        width: 225px;
+    }
+
+    .image:after {
+        width: 360px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1336px) {
+    .outer-ring {
+        top: 80px;
+    }
+
+    .inner-ring {
+        top: 95px;
+    }
+
+    h1.slogan {
+        padding-top: 450px;
+    }
+
+    .image {
+        height: 300px;
+        width: 290px;
+    }
+
+    .image:after {
+        width: 360px;
+        height: 300px;
+    }
 
     .form-group {
-    padding: 15px;
-    max-width: 70%;
+        padding: 15px;
+        max-width: 70%;
     }
 
     .btn {
-    max-width: 50%; 
-    font-size: 25px;
+        max-width: 50%;
+        font-size: 25px;
     }
 }
-
-
-
-
-
