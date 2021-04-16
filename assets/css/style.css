@@ -32,6 +32,13 @@ nav {
     line-height: inherit;
 }
 
+/* Sections */
+    section:before {
+        height: 54px;
+        content: "";
+        display: block;
+    }
+
 /* Typography */
 
 a {
