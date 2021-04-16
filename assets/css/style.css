@@ -38,10 +38,6 @@ section:before {
     display: block;
 }
 
-section {
-    height: 100vh;
-}
-
 /* Typography */
 a {
     color: #D1CCCC;
