@@ -366,11 +366,6 @@ footer {
     .backtotop {
         padding: 0px 0px 0px 10px;
     }
-
-    .backtotop a i {
-        width: 42px;
-        height: 40px;
-    }
 }
 
 @media (min-width: 320px) and (max-width: 360px) {
