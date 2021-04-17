@@ -43,7 +43,6 @@ a {
 h1.slogan {
     color: #D1CCCC;
     text-align: center;
-    padding: 26rem 0rem 0rem 0rem;
     font-size: 45px;
 }
 
@@ -113,8 +112,8 @@ p {
 /*Project Showcase code adapted from https://bbbootstrap.com/snippets/bootstrap-image-hover-effects-64168738 */
 .image {
     overflow: hidden;
-    height: 450px;
-    width: 450px;
+    height: 650px;
+    width: 650px;
     position: relative;
     cursor: pointer;
     margin: 0;
@@ -185,7 +184,7 @@ h1.text {
 .outer-ring {
     position: absolute;
     left: calc(50% - 140px);
-    top: 50px;
+    top: 70px;
     height: 350px;
     width: 350px;
     background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
@@ -200,7 +199,7 @@ h1.text {
 .inner-ring {
     position: absolute;
     left: calc(51% - 135px);
-    top: 65px;
+    top: 85px;
     height: 320px;
     width: 320px;
     background-image: url(../images/logoLarge.png);
@@ -323,13 +322,12 @@ footer {
     }
 
     h1.slogan {
-        font-size: 20px;
-        padding-top: 300px;
+        font-size: 25px;
+        padding-top: 250px;
     }
 
     h1.sloganphrase {
-        font-size: 24px;
-        padding: 10px 0;
+        font-size: 35px;
     }
 
     h1 {
@@ -349,10 +347,7 @@ footer {
         text-align: inherit;
     }
 
-    img.sloganimage {
-        width: 240px;
-        height: 100px;
-    }
+
 
     .image {
         height: 250px;
@@ -369,20 +364,9 @@ footer {
     }
 }
 
-@media (min-width: 320px) and (max-width: 360px) {
-    .image {
-        height: 250px;
-        width: 280px;
-    }
 
-    .image:after {
-        width: 365px;
-        height: 251px;
-    }
 
-}
-
-@media (min-width: 360px) and (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 375px) {
     .outer-ring {
         left: calc(50% - 120px);
         top: 90px;
@@ -430,13 +414,13 @@ footer {
     }
 
     .image {
-        height: 250px;
-        width: 315px;
+        height: 300px;
+        width: 300px;
     }
 
     .image:after {
-        width: 395px;
-        height: 251px;
+        width: 380px;
+        height: 340px;
     }
 
     .backtotop {
@@ -450,16 +434,13 @@ footer {
 }
 
 @media (min-width: 375px) and (max-width: 411px) {
-    .image {
-        height: 250px;
-        width: 345px;
-    }
-
     .image:after {
-        width: 435px;
-        height: 251px;
+        width: 372px;
+        height: 306px;
     }
 }
+
+
 
 @media (min-width: 411px) and (max-width: 540px) {
     .outer-ring {
@@ -509,13 +490,13 @@ footer {
     }
 
     .image {
-        height: 250px;
-        width: 380px;
+        height: 300px;
+        width: 290px;
     }
 
     .image:after {
-        width: 490px;
-        height: 251px;
+        width: 362px;
+        height: 300px;
     }
 
     .backtotop {
@@ -530,41 +511,31 @@ footer {
 
 @media (min-width: 540px) and (max-width: 768px) {
     .image {
-        height: 250px;
-        width: 490px;
+        width: 300;
+        height: 290px;
     }
 
     .image:after {
-        width: 620px;
-        height: 251px;
+        width: 400px;
+        height: 350px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .outer-ring {
-        left: calc(50% - 150px);
-        top: 80px;
-    }
-
-    .inner-ring {
-        left: calc(50% - 135px);
-        top: 95px;
-    }
 
     h1.slogan {
-        padding-top: 450px;
+        padding-top: 370px;
     }
 
     .image {
-        height: 250px;
-        width: 225px;
+        width: 200px;
+        height: 210px;
     }
 
     .image:after {
         width: 360px;
         height: 300px;
     }
-
 }
 
 @media (min-width: 1024px) and (max-width: 1600px) {
@@ -600,3 +571,6 @@ footer {
         font-size: 25px;
     }
 }
+
+/* 2532x1170 pixels at 460ppi */
+@
