@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Sacramento&display=swap');
 
 html {
-    scroll-padding-top: 2.5rem;
     scroll-behavior: smooth;
     font-size: 100%;
 }
@@ -226,7 +225,6 @@ h1.text {
 /*  Circle Animation CSS Customised Finished*/
 
 /*  Skills/Progress Bar Customised from CI Rosie Resume*/
-
 .progress {
     position: relative;
     height: 25px;
@@ -275,17 +273,6 @@ h1.text {
     background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
 }
 
-/* Footer */
-footer {
-    background-color: #0a0c3f;
-    font-family: 'Montserrat';
-    color: #D1CCCC;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-    justify-content: center;
-}
-
 /* Social Links*/
 .social-links li a i {
     width: 52px;
@@ -306,9 +293,19 @@ footer {
 
 .social-links li a i:hover {
     color: #D1CCCC;
-    background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+    justify-content: center;
 }
 
+/* Footer */
+footer {
+    background-color: #0a0c3f;
+    font-family: 'Montserrat';
+    color: #D1CCCC;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    justify-content: center;
+}
 
 /*  Media Screens*/
 @media (min-device-width:600px) {
