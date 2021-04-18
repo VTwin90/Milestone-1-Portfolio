@@ -164,6 +164,11 @@ Included in the **404.html** page is:
 * [Markdown-Cheatsheet](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md "Markdown-Cheatsheet") - used to find the right format for markdown.
 
 ## **Testing**
+Testing results can be found [here](TESTING.md).
+
+HTML Code must pass through the [W3C HTML Validator](https://validator.w3.org/ "W3C HTML Validator").
+
+CSS Code must pass through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator").
 
 ## **Deployment**
 
