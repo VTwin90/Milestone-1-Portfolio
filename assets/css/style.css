@@ -1,6 +1,7 @@
 html {
     scroll-padding-top: 2.5rem;
     scroll-behavior: smooth;
+    font-size: 100%;
 }
 
 body {
@@ -44,6 +45,8 @@ h1.slogan {
     color: #D1CCCC;
     text-align: center;
     font-size: 45px;
+    font-size: 45px;
+    margin-top: 300px;
 }
 
 /* Gradient text adapted from https://cssgradient.io/blog/css-gradient-text/ */
@@ -304,8 +307,39 @@ footer {
     background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
 }
 
+
 /*  Media Screens*/
-@media (min-width: 280px) and (max-width: 320px) {
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+@media (min-width: 640px) {
+    body {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:960px) {
+    body {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width:1100px) {
+    body {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 100px) {
     .outer-ring {
         left: calc(50% - 100px);
         top: 90px;
@@ -323,7 +357,6 @@ footer {
 
     h1.slogan {
         font-size: 25px;
-        padding-top: 250px;
     }
 
     h1.sloganphrase {
@@ -347,8 +380,6 @@ footer {
         text-align: inherit;
     }
 
-
-
     .image {
         height: 250px;
         width: 250px;
@@ -364,210 +395,137 @@ footer {
     }
 }
 
-
-
-@media (min-width: 320px) and (max-width: 375px) {
+@media only screen and (min-width: 768px) {
     .outer-ring {
-        left: calc(50% - 120px);
-        top: 90px;
-        height: 250px;
-        width: 250px;
-    }
-
-    .inner-ring {
-        left: calc(50% - 110px);
-        top: 100px;
-        height: 230px;
-        width: 230px;
-        background-size: 240px 240px;
-    }
-
-    h1.slogan {
-        font-size: 30px;
-        padding-top: 350px;
-    }
-
-    h1.sloganphrase {
-        font-size: 50px;
-        padding: 10px 0;
-    }
-
-    h1 {
-        font-size: 35px;
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-
-    h3 {
-        font-size: 18px;
-    }
-
-    p {
-        font-size: 18px;
-    }
-
-    img.sloganimage {
-        width: 240px;
-        height: 100px;
-    }
-
-    .image {
-        height: 300px;
-        width: 300px;
-    }
-
-    .image:after {
-        width: 380px;
-        height: 340px;
-    }
-
-    .backtotop {
-        padding: 0px 0px 0px 20px;
-    }
-
-    .backtotop a i {
-        width: 52px;
-        height: 52px;
-    }
-}
-
-@media (min-width: 375px) and (max-width: 411px) {
-    .image:after {
-        width: 372px;
-        height: 306px;
-    }
-}
-
-
-
-@media (min-width: 411px) and (max-width: 540px) {
-    .outer-ring {
-        left: calc(50% - 120px);
-        top: 90px;
-        height: 250px;
-        width: 250px;
-    }
-
-    .inner-ring {
-        left: calc(50% - 110px);
-        top: 100px;
-        height: 230px;
-        width: 230px;
-        background-size: 240px 240px;
-    }
-
-    h1.slogan {
-        font-size: 30px;
-        padding-top: 350px;
-    }
-
-    h1.sloganphrase {
-        font-size: 50px;
-        padding: 10px 0;
-    }
-
-    h1 {
-        font-size: 35px;
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-
-    h3 {
-        font-size: 18px;
-    }
-
-    p {
-        font-size: 18px;
-    }
-
-    img.sloganimage {
-        width: 240px;
-        height: 100px;
-    }
-
-    .image {
-        height: 300px;
-        width: 290px;
-    }
-
-    .image:after {
-        width: 362px;
-        height: 300px;
-    }
-
-    .backtotop {
-        padding: 0px 0px 0px 20px;
-    }
-
-    .backtotop a i {
-        width: 52px;
-        height: 52px;
-    }
-}
-
-@media (min-width: 540px) and (max-width: 768px) {
-    .image {
-        width: 300;
-        height: 290px;
-    }
-
-    .image:after {
-        width: 400px;
-        height: 350px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-
-    h1.slogan {
-        padding-top: 370px;
-    }
-
-    .image {
-        width: 200px;
-        height: 210px;
-    }
-
-    .image:after {
-        width: 360px;
-        height: 300px;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1600px) {
-    .outer-ring {
+        left: calc(50% - 100px);
         top: 80px;
+        height: 260px;
+        width: 260px;
     }
 
     .inner-ring {
-        top: 95px;
+        left: calc(50% - 90px);
+        top: 90px;
+        height: 240px;
+        width: 240px;
+        background-size: 240px 240px;
     }
 
     h1.slogan {
-        padding-top: 450px;
+        font-size: 35px;
+        margin-top: 350px;
+    }
+
+    h1.sloganphrase {
+        font-size: 60px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 22px;
+        text-align: inherit;
     }
 
     .image {
-        height: 300px;
-        width: 290px;
+        height: 220px;
+        width: 220px;
     }
 
-    .image:after {
-        width: 360px;
-        height: 300px;
+}
+
+@media only screen and (min-width: 992px) {
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 26px;
+        text-align: inherit;
+    }
+
+    .image {
+        height: 220px;
+        width: 220px;
+    }
+
+    #portrait {
+        max-width: 60%;
+        height: auto;
+        float: right;
+        padding: 2% 0% 2% 3%;
+        opacity: 1;
     }
 
     .form-group {
         padding: 15px;
-        max-width: 50%;
+        max-width: 70%;
     }
 
     .btn {
-        max-width: 30%;
+        max-width: 40%;
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 28px;
+        text-align: inherit;
+    }
+
+    h1.slogan {
+        font-size: 45px;
+    }
+
+    h1.sloganphrase {
+        font-size: 75px;
+    }
+
+    #portrait {
+        max-width: 60%;
+    }
+
+    .form-group {
+        padding: 15px;
+        max-width: 40%;
+    }
+
+    .btn {
+        max-width: 20%;
         font-size: 25px;
     }
 }
