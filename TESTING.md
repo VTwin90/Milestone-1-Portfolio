@@ -1,13 +1,105 @@
 # Test Cases and Execution Report
 
-![test result screenshot](x)
-![test result screenshot](x)
-![test result screenshot](x)
-![test result screenshot](x)
+![test result screenshot](assets/images/testResults/testResult1.png)
+![test result screenshot](assets/images/testResults/testResult2.png)
+![test result screenshot](assets/images/testResults/testResult4.png)
+![test result screenshot](assets/images/testResults/testResult4.png)
 
 Full downloadable excel document can be found [here](assets/images/testResults/testResults.xlsx).
 
 Please note these results are a .xlsx file and will require excel, google docs or a compatible program to open the file.
+
+## User Story Testing
+
+### User Story:
+> As a **first time user** I want to be able to navigate through the whole site smoothly.
+
+Tests Covering story:
+* TC06
+* TC07
+* TC08
+* TCO9
+
+### User Story:
+> As a **first time user** I want to understand the purpose of the site upon loading it.
+
+Tests Covering story:
+* TC011
+
+### User Story:
+> As a **first time user** I want to be able to easily view information about the developer on any screen size.
+
+Tests Covering story:
+* TC003
+* TC004
+* TC005
+
+### User Story:
+> As a **first time user** I want to easily be able to contact the developer for more information.
+
+Tests Covering story:
+* TC06
+* TC09
+
+### User Story:
+>  As a **first time user** I want to be able to view examples of the developers portfolio projects.
+
+Tests Covering story:
+* TC06
+* TC08
+
+### User Story:
+> As a **first time user** I want to view developers skills and experience.
+
+Tests Covering story:
+* TC06
+* TC07
+
+### User Story:
+> As a **first time user** I want to be able to access the developers external social accounts.
+
+Tests Covering story:
+* TC06
+
+### User Story:
+> As a **first time user** I want to be able to get a downloadable CV of the site owner to easily share with others. 
+
+Tests Covering story:
+* TC06
+
+### User Story:
+> As a **site owner** I want the landing page (index.html) to clearly provide all information needed about the site's purpose and be «eye catching» and interesting in the first seconds.
+
+Tests Covering story:
+* TC011
+
+### User Story:
+> As a **site owner** I want any user to receive the correct information for the viewport they are currently on.
+
+Tests Covering story:
+* TC07
+* TC08
+* TC09
+* TC011
+
+### User Story:
+> As a **site owner** I want users to be able to contact the site owner easily for hire opportunities, collaborations and networking.
+
+Tests Covering story:
+* TC06
+* TC09
+
+### User Story:
+> As a **site owner** I want an organized, intuitive navigation system.
+
+Tests Covering story:
+* TC06
+
+### User Story:
+> As a **site owner** I want users to see projects that showcase skills and growth.
+
+Tests Covering story:
+* TC08
 
 # Issues and Resolutions
 
@@ -56,14 +148,15 @@ The Images was not responsive and project hover animation was owerflowing.
 **Resolution:**
 Add: img-fluid img-responsive and image rounded mx-auto d-block classes. And specify different .image height and width, .image:after height and width in media quieres/screens.
 
-# Lighthouse Report
+# Lighthouse Report Mobile & Desktop
 
-![lighthouse report](xxxx)
+![lighthouse report mobile](assets/images/testResults/lighthouseMobile.png)
+![lighthouse report desktop](assets/images/testResults/lighthouseDesktop.png)
 
 # Validator Results
 
 ### HTML
-![html results](xxx)
+![html results](assets/images/testResults/htmlValidator.png)
 
 ### CSS 
-![css results](xxx)
+![css results](assets/images/testResults/cssValidator.png)
