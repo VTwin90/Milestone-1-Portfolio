@@ -7,7 +7,7 @@ To have a platform where recruiters, developers and others can find them to get 
 Also for them/the user to see a sample of the skillset and potential of the developer. 
 
 ## **Showcase**
-A deployed link to the website can be found here.
+A deployed link to the website can be found [here](https://vtwin90.github.io/Milestone-1-Portfolio/).
 
 ## **User Experience** (UX)
 
@@ -44,7 +44,7 @@ E. Creation of contact form and response. | 3 | 3
 * As a **site owner** I want the landing page (index.html) to clearly provide all information needed about the site's purpose and be «eye catching» and interesting in the first seconds.
 * As a **site owner** I want any user to receive the correct information for the viewport they are currently on.
 * As a **site owner** I want users to be able to contact the site owner easily for hire opportunities, collaborations and networking.
-* As a **site owner** I want an organized, intuitive navigation system across all pages.
+* As a **site owner** I want an organized, intuitive navigation system.
 * As a **site owner** I want users to see projects that showcase skills and growth.
 
 ### **What is needed now and in the future?**
@@ -94,11 +94,22 @@ To keep a consistent, professional and modern style, and for easy readability, t
 ### **Wireframes**
 
 ### **Design changes**
+**Logo:** 
+* Changed colors to get it more visible after feedback from mentor, family and friends. 
+
+**Font:**
+* Changed fonts from Roboto, and Roboto Bold to Oswald, Montserrat and Sacramento.
+
+**About Me:**
+* Changed layout to include a portrait image.
+
+**Projects:**
+* Changed number of showcased projects from 6 to 3 after conversation with mentor.
 
 ## **Features**
 
 ### **Existing Features**
-Smooth scrolling for better UX.
+Smooth scrolling for better UX, with hover function that lights up in the nav when moving sections.
 
 Included in the **header** is:
 
@@ -115,21 +126,22 @@ Included in the **Home/landing** section is:
 * **Logo and Developers name:** A brief introduction to the owner and slogan. 
 * **Animated Circle Element:** To give a focus point that captures your attention immediately at the site. 
 
-Included in the **about me** section is:
+Included in the **About Me** section is:
 
 * **Introduction to Developer:** A introduction about the owner, with background information and education, as well as interests. An elevator pitch.  
 * **Skills bar:** A bar to illustrate the developers current skills(HTML,CSS, Bootstrap etc.), to what will be learned. 
 
-Included in the **projects** section is:
+Included in the **Projects** section is:
 
-* **Projects Cartwheel for mobile:** Provides information and image of projects. 
-* **Projects Containers for desktop, xl desktop and tablet:** Provides information and image of projects. 
+* **Projects Containers:** Provides information and image of projects, with a hover animation.
 
-Included in the **contact** section is:
+Included in the **Contact** section is:
 
 * **Contact Form:** Can be filled out with email and message query (with validation, “@” and “.”) and submitted to contact the owner. Currently due to no JavaScript the form cannot store or send data.
 
-Included in the **downloadCV** link is:
+* **Modal:** A modal that lets the user now they have been succesfull in sending the message.
+
+Included in the **DownloadCV** link is:
 
 * **Download CV text and Icon:** A icon for the user to download the CV of the developer on a new page. 
 
@@ -179,8 +191,6 @@ CSS Code must pass through the [W3C CSS Validator](https://jigsaw.w3.org/css-val
 Animated Circle Element:
 https://codepen.io/Olwiba/pen/XRVrZQ
 
-Animated Button Element:
-https://codepen.io/bibby0912/pen/mErWyA
 
 ### **Media**
 
