@@ -177,7 +177,7 @@ h1.text {
 }
 
 .btn:hover {
-    background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+    background-image: linear-gradient(135deg, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
 }
 
 /* Circle Animation CSS Customised from https://codepen.io/Olwiba/pen/XRVrZQ */
@@ -191,7 +191,7 @@ h1.text {
     top: 70px;
     height: 350px;
     width: 350px;
-    background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
+    background-image: linear-gradient(135deg, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
     border-radius: 50%;
 
     /*  Rotate  */
@@ -273,7 +273,7 @@ h1.text {
     background-image: linear-gradient(135deg, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);
 }
 
-/* Social Links*/
+/* Social Links customised from: https://github.com/nemixu/Milestone1*/
 .social-links li a i {
     width: 52px;
     height: 52px;
