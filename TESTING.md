@@ -2,7 +2,7 @@
 
 ![test result screenshot](assets/images/testResults/testResult1.png)
 ![test result screenshot](assets/images/testResults/testResult2.png)
-![test result screenshot](assets/images/testResults/testResult4.png)
+![test result screenshot](assets/images/testResults/testResult3.png)
 ![test result screenshot](assets/images/testResults/testResult4.png)
 
 Full downloadable excel document can be found [here](assets/images/testResults/testResults.xlsx).
