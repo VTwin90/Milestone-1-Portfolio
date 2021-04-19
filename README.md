@@ -6,11 +6,11 @@ This is a portfolio website to showcase the developers projects as well as givin
 To have a platform where recruiters, developers and others can find them to get in touch to network, collaborate and offer opportunities. 
 Also for them/the user to see a sample of the skillset and potential of the developer. 
 
-A deployed link to the website can be found [here](https://vtwin90.github.io/Milestone-1-Portfolio/).
+A deployed link to the website can be found **[here](https://vtwin90.github.io/Milestone-1-Portfolio/)**.
 
 ![Mockup](assets/images/mockup.png)
 
-## Contents
+## **Contents**
 
 ***
 
@@ -85,10 +85,9 @@ E. Creation of contact form and response. | 3 | 3
 
 * The developer wants an aesthetically pleasing and professional website to reinforce their online presence and give a concise and a «pitch»/UPS of their skills and potential for growth and development. 
 To enhance their desirability to be hired for opportunities, collaborations and networking. 
-* There will be a landing page/home page to grab attention, while an about page to further tell and showcase the developer. This includes current sets of skills, and further skills being developed as well as interests to give it a personal flair.  
-As well as establishing a bit of trustworthiness, Also contact information and form to easily reach the site owner.
+* There will be a landing page/home page to grab attention, while an about page to further tell and showcase the developer. This includes current sets of skills, and further skills being developed as well as interests to give it a personal flair. As well as establishing a bit of trustworthiness, Also contact information and form to easily reach the site owner.
 * The owner could have their needs and more fulfilled by using a mobile first approach to a fully responsive website which would allow for easy navigation, use and no diminished experiences on all viewport sizes. 
-Clear simplistically designed pages and sections to draw attention to all the features offered (Home,About, Projects, Contact, Download CV, Navbar, Footer) which allows new users to become familiarized with the environment and can encourage them to contact the developer.
+* Clear simplistically designed pages and sections to draw attention to all the features offered (Home,About, Projects, Contact, Download CV, Navbar, Footer) which allows new users to become familiarized with the environment and can encourage them to contact the developer.
 * Other features further down the line will allow the website to provide a more complete user experience by incorporating real projects, some other coding languages and update of skills. 
 Possibly testimonials/references of the user to enhance more credibility and trust. These will all help with user satisfaction, retention and familiarisation with the developer and the portfolio website.
 
@@ -96,7 +95,7 @@ Possibly testimonials/references of the user to enhance more credibility and tru
 
 ### **Website Structure**
 
-This website will use a single page structure, due to its simplicity and flow. Also since the content information is going to be not as massive as for instance an e-commerce site, a single page application/website can be used here. 
+This website will use a single page structure, due to its simplicity and flow. Also since the content information is not going to be as massive as for instance an e-commerce site, a single page application/website can be used here. 
 In the future if more advanced features will be included and more information will be put in, the developer can re-evaluate the need for more pages, or continuing using a single page application/website. 
 
 However, to give the user more options and flexibility there will not only be a scrolling option, but also the user will have the option to click on the navigation bar to easily navigate through the different sections and back again to the main page(index.html). 
@@ -176,7 +175,7 @@ Included in the **header** is:
 
 Included in the **footer** is:
 
-* **Social media links:** Which will take you to the various social media connections: Github, Instagram, LinkedIn. Which will open in a new tab to maintain user retention.
+* **Social media links:** Which will take you to the various social media connections: GitHub, Instagram, LinkedIn. Which will open in a new tab to maintain user retention.
 
 Included in the **Home/landing** section is:
 
@@ -196,7 +195,7 @@ Included in the **Contact** section is:
 
 * **Contact Form:** Can be filled out with email and message query (with validation, “@” and “.”) and submitted to contact the owner. Currently due to no JavaScript the form cannot store or send data.
 
-* **Modal:** A modal that lets the user now they have been successful in sending the message.
+* **Modal:** A modal that lets the user know they have been successful in sending the message.
 
 Included in the **DownloadCV** link is:
 
@@ -228,7 +227,7 @@ Included in the **404.html** page is:
 ### **Frameworks, Libraries & Programs**
 
 * [Bootstrap](https://getbootstrap.com/ "Bootstrap") - used to create the layout of the project.
-* [Figma](https://www.figma.com/ "Figma") - used to create the project's wireframes, designs and logo.
+* [Figma](https://www.figma.com/ "Figma") - used to create the projects wireframes, designs and logo.
 * [Gitpod](https://www.gitpod.io/ "Gitpod") - used to develop the website.
 * [GitHub](https://github.com/ "GitHub") - used to host the project.
 * [Git](https://git-scm.com/) -used for version control.
@@ -303,49 +302,49 @@ The live link for the site is here: **[https://vtwin90.github.io/Milestone-1-Por
 ### **Code**
 
 Animated Circle Element adapted from:
-https://codepen.io/Olwiba/pen/XRVrZQ 
+* https://codepen.io/Olwiba/pen/XRVrZQ 
 
-Gradient Slogan Phrase Text:
-https://cssgradient.io/blog/css-gradient-text/
+Gradient Slogan Phrase Text: 
+* https://cssgradient.io/blog/css-gradient-text/
 
 Project Showcase adapted from: 
-https://bbbootstrap.com/snippets/bootstrap-image-hover-effects-64168738
+* https://bbbootstrap.com/snippets/bootstrap-image-hover-effects-64168738
 
-Social links design adapted from:
-https://github.com/nemixu/Milestone1
+Social links design adapted from: 
+* https://github.com/nemixu/Milestone1
 
-Javascript Modal:
-https://codepen.io/dasan/pen/vqaLPe
+JavaScript Modal: 
+* https://codepen.io/dasan/pen/vqaLPe
 
-Progress Bar:
-CI Rosie Resume https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4
+Progress Bar: CI Rosie Resume 
+* https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4
 
-Bootstrap assistance:
-https://www.w3schools.com/bootstrap4/default.asp
-https://getbootstrap.com/docs/4.5/getting-started/introduction/
-https://css-tricks.com/snippets/jquery/smooth-scrolling/
+Bootstrap assistance: 
+* https://www.w3schools.com/bootstrap4/default.asp
+* https://getbootstrap.com/docs/4.5/getting-started/introduction/
+* https://css-tricks.com/snippets/jquery/smooth-scrolling/
 
 General:
-https://www.w3schools.com
-https://css-tricks.com
-https://getbootstrap.com/
+* https://www.w3schools.com
+* https://css-tricks.com
+* https://getbootstrap.com/
 
 ### **Media & Content**
 
 Logo Inspiration:
-https://no.pinterest.com/pin/728105464739579361/
+* https://no.pinterest.com/pin/728105464739579361/
 
-All other images and text content are owned by the site owner. 
+**All other images and text content are owned by the site owner.**
 
 ### **Acknowledgments**
 
-I would like thank my mentor [Maranatha Ilesanmi](https://github.com/mbilesanmi) for all help throughout our project calls.
+I would like thank my mentor **[Maranatha Ilesanmi](https://github.com/mbilesanmi)** for all help throughout our project calls.
 
-Thanks to fellow CI student [John Traas](https://github.com/Jays-T) for assisting with figuring out my Nav issue.
+Thanks to fellow CI student **[John Traas](https://github.com/Jays-T)** for assisting with figuring out my Nav issue.
 
-Thanks to graduate CI student [Daisy McGirr](https://github.com/Daisy-McG) for letting me use her test template and structure for making my own testing document.
+Thanks to graduate CI student **[Daisy McGirr](https://github.com/Daisy-McG)** for letting me use her test template and structure for making my own testing document.
 
-Thanks to the CI Slack Community for feedback, motivation and assitance. 
+Thanks to the **CI Slack Community** for feedback, motivation and assitance. 
 
 Also a thank you to my family and friends who have helped me test various different versions of the website throughout the development process, as well as giving feedback on the layout and design. 
 
