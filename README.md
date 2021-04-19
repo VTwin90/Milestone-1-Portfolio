@@ -304,6 +304,9 @@ https://github.com/nemixu/Milestone1
 Javascript Modal:
 https://codepen.io/dasan/pen/vqaLPe
 
+Progress Bar:
+CI Rosie Resume.
+
 Bootstrap assistance:
 https://www.w3schools.com/bootstrap4/default.asp
 https://getbootstrap.com/docs/4.5/getting-started/introduction/
