@@ -12,6 +12,8 @@ A deployed link to the website can be found [here](https://vtwin90.github.io/Mil
 
 ## Contents
 
+***
+
 - [**User Experience (UX)**](<#user-experience-(ux)>)
   - [Project Goals](<#project-goals>)
   - [Importance and Feasibility chart](<#importance-and-feasibility-chart>)
@@ -37,6 +39,7 @@ A deployed link to the website can be found [here](https://vtwin90.github.io/Mil
 - [**Credits**](<#credits>)
 
 ## **User Experience** (UX)
+***
 
 ### **Project Goals**
 
@@ -105,6 +108,7 @@ This will save screen space and keep to conventions users are expecting.
 #### [Back to top](<#contents>)
 
 ### **Design Choices from UXD**
+***
 
 The style is based on a minimalistic, readable, contrasting design for easy flow and navigation, as well as maintaining a consistency to allow the user to easily familiarise themselves with the site efficiently and intuitively. 
 Based on this being a personal portfolio for the developer, the main inspiration and decisions will come from the developers research and own personal design.
@@ -156,11 +160,12 @@ To keep a consistent, professional and modern style, and for easy readability, t
 * Changed number of showcased projects from 6 to 3 after conversation with mentor.
 
 **Collapsed Nav:**
-The Hamburger Nav menu got changed to a simplier design (Bootstrap), due to the complexity of the layout without using JS.
+The Hamburger Nav menu got changed to a simpler design (Bootstrap), due to the complexity of the layout without using JS.
 
 #### [Back to top](<#contents>)
 
 ## **Features**
+***
 
 ### **Existing Features**
 Smooth scrolling for better UX, with hover function that lights up in the nav when moving sections.
@@ -191,7 +196,7 @@ Included in the **Contact** section is:
 
 * **Contact Form:** Can be filled out with email and message query (with validation, “@” and “.”) and submitted to contact the owner. Currently due to no JavaScript the form cannot store or send data.
 
-* **Modal:** A modal that lets the user now they have been succesfull in sending the message.
+* **Modal:** A modal that lets the user now they have been successful in sending the message.
 
 Included in the **DownloadCV** link is:
 
@@ -213,6 +218,7 @@ Included in the **404.html** page is:
 #### [Back to top](<#contents>)
 
 ## **Technologies**
+***
 
 ### **Languages**
 
@@ -226,7 +232,7 @@ Included in the **404.html** page is:
 * [Gitpod](https://www.gitpod.io/ "Gitpod") - used to develop the website.
 * [GitHub](https://github.com/ "GitHub") - used to host the project.
 * [Git](https://git-scm.com/) -used for version control.
-* [Git Pages](https://pages.github.com/) - used to deply the live site. 
+* [Git Pages](https://pages.github.com/) - used to deploy the live site. 
 * [Trello ](https://trello.com/ "Trello ") - used for time and project management.
 * [Ilovepdf](https://www.ilovepdf.com/compress_pdf "Ilovepdf") - used for compressing pdf files.
 * [Iloveimg](https://www.iloveimg.com/) - used to resize images.
@@ -242,18 +248,20 @@ Included in the **404.html** page is:
 * [Markdown-Cheatsheet](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md "Markdown-Cheatsheet") - used to find the right format for markdown.
 
 ## **Testing**
-Testing results can be found [here](TESTING.md).
+***
+Testing results can be found **[here](TESTING.md)**.
 
-HTML Code must pass through the [W3C HTML Validator](https://validator.w3.org/ "W3C HTML Validator").
+HTML Code must pass through the **[W3C HTML Validator](https://validator.w3.org/ "W3C HTML Validator")**.
 
-CSS Code must pass through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator").
+CSS Code must pass through the **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator")**.
 
 #### [Back to top](<#contents>)
 
 ## **Deployment**
+***
 
 ### Project Creation
-Navigate to the [template](https://github.com/Code-Institute-Org/gitpod-full-template) and click 'Use this template'. Put in Repository name (Milestone-1-Portfolio) and check the Include all branches checkbox. Then navigate to the new [repository](https://github.com/VTwin90/Milestone-1-Portfolio).
+Navigate to the **[template](https://github.com/Code-Institute-Org/gitpod-full-template)** and click 'Use this template'. Put in Repository name (Milestone-1-Portfolio) and check the Include all branches checkbox. Then navigate to the new **[repository](https://github.com/VTwin90/Milestone-1-Portfolio)**.
 
 The following commands were used for version control throughout the project:
 + ```git status``` (checks which files have been modified or added, and ready to be committed)
@@ -261,40 +269,41 @@ The following commands were used for version control throughout the project:
 + ```git commit -m "[TYPE] Reason"``` (commit changes to the local repository)
 + ```git push``` (push all committed changes to the GitHub repository)
 
-### Deployment to Github pages
+### **Deployment to Github pages**
 
-1. Push project to GitHub. Naviagte and logg into the GitHub site.
-2. Go to repositories and select the one associated to this project: [Milestone 1 Portfolio](https://github.com/VTwin90/Milestone-1-Portfolio).
+1. Push project to GitHub. Navigate and log into the GitHub site.
+2. Go to repositories and select the one associated to this project: **[Milestone 1 Portfolio](https://github.com/VTwin90/Milestone-1-Portfolio)**.
 3. On the main repository, click "Settings" and scroll to "Github Pages".
 4. Under "Source" select "Master Branch" and click "Save".
 5. Click on the link to go to the live deployed page.
 
-The live link for the site is here: [https://vtwin90.github.io/Milestone-1-Portfolio/](https://vtwin90.github.io/Milestone-1-Portfolio/)
+The live link for the site is here: **[https://vtwin90.github.io/Milestone-1-Portfolio/](https://vtwin90.github.io/Milestone-1-Portfolio/)**
 
-### Create a local clone
+### **Create a local clone**
 
-1. Open GitHub and navigate to repository [here](https://github.com/VTwin90/Milestone-1-Portfolio).
+1. Open GitHub and navigate to repository **[here](https://github.com/VTwin90/Milestone-1-Portfolio)**.
 2. Click the Code drop down menu. 
 3. Options: 
 * Download the ZIP file, unpack locally and open with IDE.  
-* Copy GIT URL from HTTPS dialogue box. 
-4. Open your choicen IDE and open terminal in a directory. 
+* Copy git URL from HTTPS dialogue box. 
+4. Open your chosen IDE and open terminal in a directory. 
 5. Use ```git clone``` command with the copied git URL after.
 6. Clone of the project is created locally on your machine.  
 
-### Fork Project
-1. Navigate to the GitHub Repository you want to [fork](https://github.com/VTwin90/Milestone-1-Portfolio).
+### **Fork Project**
+1. Navigate to the GitHub Repository you want to **[fork](https://github.com/VTwin90/Milestone-1-Portfolio)**.
 2. On the top right of the page under the header, click the fork button.
 3. Creates a duplicate of the full project in your GitHub Repository.
 
 #### [Back to top](<#contents>)
 
 ## **Credits**
+***
 
 ### **Code**
 
 Animated Circle Element adapted from:
-https://codepen.io/Olwiba/pen/XRVrZQ
+https://codepen.io/Olwiba/pen/XRVrZQ 
 
 Gradient Slogan Phrase Text:
 https://cssgradient.io/blog/css-gradient-text/
@@ -309,7 +318,7 @@ Javascript Modal:
 https://codepen.io/dasan/pen/vqaLPe
 
 Progress Bar:
-CI Rosie Resume.
+CI Rosie Resume https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4
 
 Bootstrap assistance:
 https://www.w3schools.com/bootstrap4/default.asp
@@ -326,7 +335,7 @@ https://getbootstrap.com/
 Logo Inspiration:
 https://no.pinterest.com/pin/728105464739579361/
 
-All other images are owned by the site owner. 
+All other images and text content are owned by the site owner. 
 
 ### **Acknowledgments**
 
@@ -336,7 +345,7 @@ Thanks to fellow CI student [John Traas](https://github.com/Jays-T) for assistin
 
 Thanks to graduate CI student [Daisy McGirr](https://github.com/Daisy-McG) for letting me use her test template and structure for making my own testing document.
 
-Thanks to the CI SLack Community for feedback, motivation and assitance. 
+Thanks to the CI Slack Community for feedback, motivation and assitance. 
 
 Also a thank you to my family and friends who have helped me test various different versions of the website throughout the development process, as well as giving feedback on the layout and design. 
 
