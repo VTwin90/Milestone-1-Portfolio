@@ -8,6 +8,8 @@ Also for them/the user to see a sample of the skillset and potential of the deve
 
 A deployed link to the website can be found [here](https://vtwin90.github.io/Milestone-1-Portfolio/).
 
+![Mockup](assets/images/mockup.png)
+
 ## Contents
 
 - [**User Experience (UX))**](<#user-experience-(ux)>)
@@ -206,9 +208,19 @@ Included in the **404.html** page is:
 * [Figma](https://www.figma.com/ "Figma") - used to create the project's wireframes, designs and logo.
 * [Gitpod](https://www.gitpod.io/ "Gitpod") - used to develop the website.
 * [GitHub](https://github.com/ "GitHub") - used to host the project.
+* [Git](https://git-scm.com/) -used for version control.
+* [Git Pages](https://pages.github.com/) - used to deply the live site. 
 * [Trello ](https://trello.com/ "Trello ") - used for time and project management.
 * [Ilovepdf](https://www.ilovepdf.com/compress_pdf "Ilovepdf") - used for compressing pdf files.
-* [GoogleDrive Document](https://drive.google.com/drive "GoogleDrive Document") - used for writing up content for READ .md.
+* [Iloveimg](https://www.iloveimg.com/) - used to resize images.
+* [TinyJPG](https://tinyjpg.com/) - used to reduce image file sizes. 
+* [Google Fonts](https://fonts.google.com/) - used for typography.
+* [Font Awesome](https://fontawesome.com/) - used for icons.
+* [FavIcon](https://favicon.io/) -used for compressing logo into favIcons.
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) -used to inspect page elements, test different CSS styles, debug issues and responsiveness.
+* [GoogleDrive Document](https://drive.google.com/drive) - used for writing up content for README.
+* [Responsive Design Checker](https:/www.responsivedesignchecker.com/) -used to check responsiveness.
+* [Techsini](http://techsini.com/multi-mockup/index.php) -used to create the Mock up image in this README.
 * [Markdown-Cheatsheet](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md "Markdown-Cheatsheet") - used to find the right format for markdown.
 
 ## **Testing**
@@ -252,6 +264,10 @@ The live link for the site is here: [https://vtwin90.github.io/Milestone-1-Portf
 5. Use ```git clone``` command with the copied git URL after.
 6. Clone of the project is created locally on your machine.  
 
+### Fork Project
+1. Navigate to the GitHub Repository you want to [fork](https://github.com/VTwin90/Milestone-1-Portfolio).
+2. On the top right of the page under the header, click the fork button.
+3. Creates a duplicate of the full project in your GitHub Repository.
 
 #### [Back to top](#contents)
 
