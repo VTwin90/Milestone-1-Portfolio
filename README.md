@@ -12,29 +12,29 @@ A deployed link to the website can be found [here](https://vtwin90.github.io/Mil
 
 ## Contents
 
-- [**User Experience (UX))**](<#user-experience-(ux)>)
+- [**User Experience (UX)**](<#user-experience-(ux)>)
   - [Project Goals](<#project-goals>)
   - [Importance and Feasibility chart](<#importance-and-feasibility-chart>)
   - [User Stories](<#user-stories>)
   - [Website Structure](<#website-structure>)
   - [Design Choices from UXD](<#design-choices-from-uxd>)
-    * [Colour Scheme](#Colour-Scheme)
-    * [Typography](#Typography)
-    * [Imagery](#Imagery)
+    - [Color Scheme](<#color-scheme>)
+    - [Images](<#images>)
+    - [Typography](<#typography>)
   - [Wireframes](<#wireframes>)
   - [Design Changes](<#design-changes>)
 
-- [**Features**](#features)
+- [**Features**](<#features>)
   - [Existing Features](<#existing-features>)
   - [Features left to implement](<#features-left-to-implement>)
 
-- [**Technologies**](#technologies)
+- [**Technologies**](<#technologies>)
 
-- [**Testing**](#testing)
+- [**Testing**](<#testing>)
 
-- [**Deployment**](#deployment)
+- [**Deployment**](<#deployment>)
 
-- [**Credits**](#credits)
+- [**Credits**](<#credits>)
 
 ## **User Experience** (UX)
 
@@ -53,7 +53,7 @@ C. Promote Developer to recruiters, potential collaborators and other interested
 D. Get offers, opportunities for collaboration and networking.  | 4 | 4
 E. Creation of contact form and response. | 3 | 3
 
-#### [Back to top](#contents)
+#### [Back to top](<#contents>)
 
 ### **User stories**
 
@@ -76,7 +76,7 @@ E. Creation of contact form and response. | 3 | 3
 * As a **site owner** I want an organized, intuitive navigation system.
 * As a **site owner** I want users to see projects that showcase skills and growth.
 
-#### [Back to top](#contents)
+#### [Back to top](<#contents>)
 
 ### **What is needed now and in the future?**
 
@@ -89,7 +89,7 @@ Clear simplistically designed pages and sections to draw attention to all the fe
 * Other features further down the line will allow the website to provide a more complete user experience by incorporating real projects, some other coding languages and update of skills. 
 Possibly testimonials/references of the user to enhance more credibility and trust. These will all help with user satisfaction, retention and familiarisation with the developer and the portfolio website.
 
-#### [Back to top](#contents)
+#### [Back to top](<#contents>)
 
 ### **Website Structure**
 
@@ -102,7 +102,7 @@ The website will include a central navigation system to provide links to a minim
 There will be a subtle but noticeable indicator as to the current section the user is browsing. Responsive design will be added to the nav bar, and on small/mobile devices it will condense into a «hamburger» icon that will have a toggle to view the nav menu and its associated links. 
 This will save screen space and keep to conventions users are expecting. 
 
-#### [Back to top](#contents)
+#### [Back to top](<#contents>)
 
 ### **Design Choices from UXD**
 
@@ -113,6 +113,8 @@ The theme is a dark mode website, with a CSS animated circle with different colo
 
 The site will have an official logo in the top left corner of the header, as this is the first spot most users look at when loading a website. 
 Clicking the logo will return the user to the homepage (index.html). When hovering over the links on the navbar there will be a subtle visual cue to show the user where they are, and show their current location on the site.  
+
+#### [Back to top](<#contents>)
 
 ### **Color Scheme**
 
@@ -130,6 +132,8 @@ The images is consistent of:
 ### **Typography**
 
 To keep a consistent, professional and modern style, and for easy readability, the fonts used are Oswald(for headings), Montserrat (the general text), and Sacramento for the slogan. These are taken from Google Fonts library. 
+
+#### [Back to top](<#contents>)
 
 ### **Wireframes**
 
@@ -154,7 +158,7 @@ To keep a consistent, professional and modern style, and for easy readability, t
 **Collapsed Nav:**
 The Hamburger Nav menu got changed to a simplier design (Bootstrap), due to the complexity of the layout without using JS.
 
-#### [Back to top](#contents)
+#### [Back to top](<#contents>)
 
 ## **Features**
 
@@ -206,7 +210,7 @@ Included in the **404.html** page is:
 * Possibly testimonials/references of the user to enhance more credibility and trust. 
 * Add a view all projects button that takes the user to a new page with more projects.
 
-#### [Back to top](#contents)
+#### [Back to top](<#contents>)
 
 ## **Technologies**
 
@@ -244,7 +248,7 @@ HTML Code must pass through the [W3C HTML Validator](https://validator.w3.org/ "
 
 CSS Code must pass through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator").
 
-#### [Back to top](#contents)
+#### [Back to top](<#contents>)
 
 ## **Deployment**
 
@@ -283,7 +287,7 @@ The live link for the site is here: [https://vtwin90.github.io/Milestone-1-Portf
 2. On the top right of the page under the header, click the fork button.
 3. Creates a duplicate of the full project in your GitHub Repository.
 
-#### [Back to top](#contents)
+#### [Back to top](<#contents>)
 
 ## **Credits**
 
@@ -340,7 +344,7 @@ Also a thank you to my family and friends who have helped me test various differ
 
 **Created by Vanja Torp 2021**
 
-#### [Back to top](#contents)
+#### [Back to top](<#contents>)
 
 
 
