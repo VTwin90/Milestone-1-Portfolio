@@ -113,27 +113,25 @@ Smooth scrolling for better UX, with hover function that lights up in the nav wh
 
 Included in the **header** is:
 
-* **Portfolio owners name and Logo:** Allows for easy remembering of the brand by potential users which also provides a link to the homepage.
 * **Navigation Bar:** Fully responsive navbar will expand outside of smaller devices and overall provides a user friendly and intuitive browsing experience.
 
 Included in the **footer** is:
 
 * **Social media links:** Which will take you to the various social media connections: Github, Instagram, LinkedIn. Which will open in a new tab to maintain user retention.
-* **Copyright:** Showing the owner of the site and year.
 
 Included in the **Home/landing** section is:
 
-* **Logo and Developers name:** A brief introduction to the owner and slogan. 
+* **Logo, Developers name, Slogan:** A brief introduction to the owner and slogan. 
 * **Animated Circle Element:** To give a focus point that captures your attention immediately at the site. 
 
 Included in the **About Me** section is:
 
 * **Introduction to Developer:** A introduction about the owner, with background information and education, as well as interests. An elevator pitch.  
-* **Skills bar:** A bar to illustrate the developers current skills(HTML,CSS, Bootstrap etc.), to what will be learned. 
+* **Skills bars:**  Bar to illustrate the developers current skills(HTML,CSS, Bootstrap etc.), learning and want to learn. 
 
 Included in the **Projects** section is:
 
-* **Projects Containers:** Provides information and image of projects, with a hover animation.
+* **Projects Containers:** Provides information and image of projects, with a hover animation. With clickable links.
 
 Included in the **Contact** section is:
 
@@ -156,6 +154,7 @@ Included in the **404.html** page is:
 * To implement the email function to deliver the messages from the user to the developer. As well as letting the user verify their email.
 * To update skills when learning new program languages. 
 * Possibly testimonials/references of the user to enhance more credibility and trust. 
+* Add a view all projects button that takes the user to a new page with more projects.
 
 ## **Technologies**
 
