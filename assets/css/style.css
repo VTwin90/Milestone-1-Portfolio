@@ -90,7 +90,7 @@ p {
 }
 
 .container-padding {
-    padding: 10% 5% 5% 5%;
+    padding: 5% 5% 5% 5%;
 }
 
 /* Sections */
@@ -325,6 +325,10 @@ footer {
 }
 
 @media only screen and (min-width: 100px) {
+    .container-padding {
+        padding: 10% 5% 5% 5%;
+    }
+
     .outer-ring {
         left: calc(50% - 100px);
         top: 90px;
@@ -381,6 +385,10 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+    .container-padding {
+        padding: 5% 5% 5% 5%;
+    }
+
     .outer-ring {
         left: calc(50% - 100px);
         top: 80px;
