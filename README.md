@@ -6,8 +6,33 @@ This is a portfolio website to showcase the developers projects as well as givin
 To have a platform where recruiters, developers and others can find them to get in touch to network, collaborate and offer opportunities. 
 Also for them/the user to see a sample of the skillset and potential of the developer. 
 
-## **Showcase**
 A deployed link to the website can be found [here](https://vtwin90.github.io/Milestone-1-Portfolio/).
+
+## Contents
+
+- [**User Experience (UX))**](<#user-experience-(ux)>)
+  - [Project Goals](<#project-goals>)
+  - [Importance and Feasibility chart](<#importance-and-feasibility-chart>)
+  - [User Stories](<#user-stories>)
+  - [Website Structure](<#website-structure>)
+  - [Design Choices from UXD](<#design-choices-from-uxd>)
+    * [Colour Scheme](#Colour-Scheme)
+    * [Typography](#Typography)
+    * [Imagery](#Imagery)
+  - [Wireframes](<#wireframes>)
+  - [Design Changes](<#design-changes>)
+
+- [**Features**](#features)
+  - [Existing Features](<#existing-features>)
+  - [Features left to implement](<#features-left-to-implement>)
+
+- [**Technologies**](#technologies)
+
+- [**Testing**](#testing)
+
+- [**Deployment**](#deployment)
+
+- [**Credits**](#credits)
 
 ## **User Experience** (UX)
 
@@ -25,6 +50,8 @@ B. Showcase developer and projects | 4 | 4
 C. Promote Developer to recruiters, potential collaborators and other interested parties.  | 5 | 5
 D. Get offers, opportunities for collaboration and networking.  | 4 | 4
 E. Creation of contact form and response. | 3 | 3
+
+#### [Back to top](#contents)
 
 ### **User stories**
 
@@ -47,6 +74,8 @@ E. Creation of contact form and response. | 3 | 3
 * As a **site owner** I want an organized, intuitive navigation system.
 * As a **site owner** I want users to see projects that showcase skills and growth.
 
+#### [Back to top](#contents)
+
 ### **What is needed now and in the future?**
 
 * The developer wants an aesthetically pleasing and professional website to reinforce their online presence and give a concise and a «pitch»/UPS of their skills and potential for growth and development. 
@@ -58,6 +87,8 @@ Clear simplistically designed pages and sections to draw attention to all the fe
 * Other features further down the line will allow the website to provide a more complete user experience by incorporating real projects, some other coding languages and update of skills. 
 Possibly testimonials/references of the user to enhance more credibility and trust. These will all help with user satisfaction, retention and familiarisation with the developer and the portfolio website.
 
+#### [Back to top](#contents)
+
 ### **Website Structure**
 
 This website will use a single page structure, due to its simplicity and flow. Also since the content information is going to be not as massive as for instance an e-commerce site, a single page application/website can be used here. 
@@ -68,6 +99,8 @@ Upon loading the page the user will be directed to the home page (index.html) wh
 The website will include a central navigation system to provide links to a minimum of 3 sections and providing information to the section title. 
 There will be a subtle but noticeable indicator as to the current section the user is browsing. Responsive design will be added to the nav bar, and on small/mobile devices it will condense into a «hamburger» icon that will have a toggle to view the nav menu and its associated links. 
 This will save screen space and keep to conventions users are expecting. 
+
+#### [Back to top](#contents)
 
 ### **Design Choices from UXD**
 
@@ -105,6 +138,8 @@ To keep a consistent, professional and modern style, and for easy readability, t
 
 **Projects:**
 * Changed number of showcased projects from 6 to 3 after conversation with mentor.
+
+#### [Back to top](#contents)
 
 ## **Features**
 
@@ -156,6 +191,8 @@ Included in the **404.html** page is:
 * Possibly testimonials/references of the user to enhance more credibility and trust. 
 * Add a view all projects button that takes the user to a new page with more projects.
 
+#### [Back to top](#contents)
+
 ## **Technologies**
 
 ### **Languages**
@@ -181,7 +218,42 @@ HTML Code must pass through the [W3C HTML Validator](https://validator.w3.org/ "
 
 CSS Code must pass through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator").
 
+#### [Back to top](#contents)
+
 ## **Deployment**
+
+### Project Creation
+Navigate to the [template](https://github.com/Code-Institute-Org/gitpod-full-template) and click 'Use this template'. Put in Repository name (Milestone-1-Portfolio) and check the Include all branches checkbox. Then navigate to the new [repository](https://github.com/VTwin90/Milestone-1-Portfolio).
+
+The following commands were used for version control throughout the project:
++ ```git status``` (checks which files have been modified or added, and ready to be committed)
++ ```git add . ``` or ```git add <filename>``` (add all changed files, or specific files within the project directory to be committed)
++ ```git commit -m "[TYPE] Reason"``` (commit changes to the local repository)
++ ```git push``` (push all committed changes to the GitHub repository)
+
+### Deployment to Github pages
+
+1. Push project to GitHub. Naviagte and logg into the GitHub site.
+2. Go to repositories and select the one associated to this project: [Milestone 1 Portfolio](https://github.com/VTwin90/Milestone-1-Portfolio).
+3. On the main repository, click "Settings" and scroll to "Github Pages".
+4. Under "Source" select "Master Branch" and click "Save".
+5. Click on the link to go to the live deployed page.
+
+The live link for the site is here: [https://vtwin90.github.io/Milestone-1-Portfolio/](https://vtwin90.github.io/Milestone-1-Portfolio/)
+
+### Create a local clone
+
+1. Open GitHub and navigate to repository [here](https://github.com/VTwin90/Milestone-1-Portfolio).
+2. Click the Code drop down menu. 
+3. Options: 
+* Download the ZIP file, unpack locally and open with IDE.  
+* Copy GIT URL from HTTPS dialogue box. 
+4. Open your choicen IDE and open terminal in a directory. 
+5. Use ```git clone``` command with the copied git URL after.
+6. Clone of the project is created locally on your machine.  
+
+
+#### [Back to top](#contents)
 
 ## **Credits**
 
@@ -202,6 +274,8 @@ https://no.pinterest.com/pin/728105464739579361/
 **This project is for educational use only and was created for the Code Institute Module of User Centric Front End Development.**
 
 **Created by Vanja Torp 2021**
+
+#### [Back to top](#contents)
 
 
 
