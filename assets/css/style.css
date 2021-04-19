@@ -90,7 +90,7 @@ p {
 }
 
 .container-padding {
-    padding: 5% 5% 5% 5%;
+    padding: 10% 5% 5% 5%;
 }
 
 /* Sections */
@@ -426,7 +426,6 @@ footer {
         height: 220px;
         width: 220px;
     }
-
 }
 
 @media only screen and (min-width: 992px) {
