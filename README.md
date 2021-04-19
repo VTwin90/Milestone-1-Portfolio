@@ -114,19 +114,29 @@ The theme is a dark mode website, with a CSS animated circle with different colo
 The site will have an official logo in the top left corner of the header, as this is the first spot most users look at when loading a website. 
 Clicking the logo will return the user to the homepage (index.html). When hovering over the links on the navbar there will be a subtle visual cue to show the user where they are, and show their current location on the site.  
 
-### **Colour Scheme**
+### **Color Scheme**
 
-The general color scheme is different shades of purple and offwhite color. These colors will create a consistent style for the website and thus the brand.
+The general color scheme is different shades of purple, blue and offwhite color. With some gradient colors consistent of purple, blue, orange and pink. These colors will create a consistent style for the website and thus the brand.
+
+![Color Scheme](assets/images/colorscheme.png)
 
 ### **Images**
 
-The only image is the logo, which has been drafted from a picture from Bing images. Then configured in Figma, by drawing it by pencil and adding a signature and colors.
+The images is consistent of: 
+1. Logo, which has been drafted from a picture from Bing images. Then configured in Figma, by drawing it by pencil and adding a signature and colors.
+2. Portrait, which is a private image from the site owner. Configured by using Clip2Comic and Figma.
+3. Projects, private owned images from the site owner.
 
 ### **Typography**
 
-To keep a consistent, professional and modern style, and for easy readability, the fonts used are Roboto(for the general text), and Roboto with a bold finish for headings. These are taken from Google Fonts library. 
+To keep a consistent, professional and modern style, and for easy readability, the fonts used are Oswald(for headings), Montserrat (the general text), and Sacramento for the slogan. These are taken from Google Fonts library. 
 
 ### **Wireframes**
+
+|Sketches|Wireframes & Designs|                        
+|:-----:|:----:|
+|[Sketches](assets/wireframes&designs/sketches.pdf)| [Wireframes & Designs](assets/wireframes&designs/wireframes&designs.pdf)
+
 
 ### **Design changes**
 **Logo:** 
@@ -140,6 +150,9 @@ To keep a consistent, professional and modern style, and for easy readability, t
 
 **Projects:**
 * Changed number of showcased projects from 6 to 3 after conversation with mentor.
+
+**Collapsed Nav:**
+The Hamburger Nav menu got changed to a simplier design (Bootstrap), due to the complexity of the layout without using JS.
 
 #### [Back to top](#contents)
 
@@ -217,6 +230,7 @@ Included in the **404.html** page is:
 * [Google Fonts](https://fonts.google.com/) - used for typography.
 * [Font Awesome](https://fontawesome.com/) - used for icons.
 * [FavIcon](https://favicon.io/) -used for compressing logo into favIcons.
+* [Clip2Comic](https://apps.apple.com/us/app/clip2comic-caricature-maker/id876328355) - used to change design on portrait image.  
 * [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) -used to inspect page elements, test different CSS styles, debug issues and responsiveness.
 * [GoogleDrive Document](https://drive.google.com/drive) - used for writing up content for README.
 * [Responsive Design Checker](https:/www.responsivedesignchecker.com/) -used to check responsiveness.
@@ -273,19 +287,51 @@ The live link for the site is here: [https://vtwin90.github.io/Milestone-1-Portf
 
 ## **Credits**
 
-### **Content**
+### **Code**
 
-Animated Circle Element:
+Animated Circle Element adapted from:
 https://codepen.io/Olwiba/pen/XRVrZQ
 
+Gradient Slogan Phrase Text:
+https://cssgradient.io/blog/css-gradient-text/
 
-### **Media**
+Project Showcase adapted from: 
+https://bbbootstrap.com/snippets/bootstrap-image-hover-effects-64168738
+
+Social links design adapted from:
+https://github.com/nemixu/Milestone1
+
+Javascript Modal:
+https://codepen.io/dasan/pen/vqaLPe
+
+Bootstrap assistance:
+https://www.w3schools.com/bootstrap4/default.asp
+https://getbootstrap.com/docs/4.5/getting-started/introduction/
+https://css-tricks.com/snippets/jquery/smooth-scrolling/
+
+General:
+https://www.w3schools.com
+https://css-tricks.com
+https://getbootstrap.com/
+
+### **Media & Content**
 
 Logo Inspiration:
 https://no.pinterest.com/pin/728105464739579361/
 
+All other images are owned by the site owner. 
+
 ### **Acknowledgments**
 
+I would like thank my mentor [Maranatha Ilesanmi](https://github.com/mbilesanmi) for all help throughout our project calls.
+
+Thanks to fellow CI student [John Traas](https://github.com/Jays-T) for assisting with figuring out my Nav issue.
+
+Thanks to graduate CI student [Daisy McGirr](https://github.com/Daisy-McG) for letting me use her test template and structure for making my own testing document.
+
+Thanks to the CI SLack Community for feedback, motivation and assitance. 
+
+Also a thank you to my family and friends who have helped me test various different versions of the website throughout the development process, as well as giving feedback on the layout and design. 
 
 **This project is for educational use only and was created for the Code Institute Module of User Centric Front End Development.**
 
